@@ -5,10 +5,12 @@ using UnityEngine;
 public class ShipMovement : MonoBehaviour
 {
     public float thrusterSpeed = 1f;
-    public float rotSpeed = 30f;
+    public float climbSpeed = 10f;
+    public float turnSpeed = 30f;
+    public float bankSpeed = 5f;
 
     Rigidbody rb;
-    Vector3 steeringDir;
+    Vector3 steering;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +19,18 @@ public class ShipMovement : MonoBehaviour
 
     private void Update()
     {
-        steeringDir = new Vector3(0, Input.GetAxis(TAGS.HORIZONTAL_AXIS), 0);
-        transform.Rotate(steeringDir * rotSpeed * Time.deltaTime);
+        steering = new Vector3(Input.GetAxis(TAGS.VERTICAL_AXIS) * climbSpeed, 
+                                Input.GetAxis(TAGS.HORIZONTAL_AXIS) * turnSpeed, 
+                                Input.GetAxis(TAGS.BANK_AXIS) * bankSpeed);
+        
+        transform.Rotate(steering * Time.deltaTime);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.AddForce(transform.forward * thrusterSpeed * Time.deltaTime, ForceMode.Impulse);
+        //rb.AddForce(transform.forward * thrusterSpeed * Time.deltaTime, ForceMode.Impulse);
+
+        transform.Translate(transform.forward * thrusterSpeed * Time.deltaTime, Space.World);
     }
 }

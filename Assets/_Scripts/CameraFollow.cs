@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,12 +6,26 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
+    public Transform pivot;
+    public Camera cam;
     public float Smoothing = 0.3f;
     public Vector3 velocity = Vector3.zero;
-    public Vector3 offset = new Vector3(0,5,-10);
+    public Vector3 offset = new Vector3(0,8,0);
+
+    public float speedH = 2.0f;
+    public float speedV = 2.0f;
+
+    float yaw = 0f;
+    float pitch = 0;
+
+
+    public float sensitivity = 10f;
+    public float maxYAngle = 80f;
+    Vector3 currentRot;
     // Start is called before the first frame update
     void Start()
     {
+        
         if (target == null)
         {
             target = GameObject.FindGameObjectWithTag(TAGS.PLAYER).transform;
@@ -20,10 +35,41 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetPos = target.TransformPoint(offset);
+        FollowPlayer();
 
-        transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref velocity, Smoothing);
+        if (Input.GetMouseButton(0))
+        {
+            FollowMouse();
+        }
+        
+        //cam.transform.rotation = Quaternion.Lerp(cam.transform.rotation, transform.rotation, 5f * Time.deltaTime);
 
 
+    }
+
+    private void FollowPlayer()
+    {
+        transform.position = target.position + offset;
+        //transform.position = Vector3.Lerp(transform.position + offset, target.transform.position, Smoothing);
+        //cam.transform.position = Vector3.Lerp(cam.transform.position,
+        //    transform.position - transform.forward * Smoothing + transform.up * 2f, 5f * Time.deltaTime);
+    }
+
+    private void FollowMouse()
+    {
+        //yaw += speedH * Input.GetAxis(TAGS.MOUSE_X_AXIS);
+        //pitch -= speedV * Input.GetAxisRaw(TAGS.MOUSE_Y_AXIS);
+
+        //transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+
+        currentRot.x += Input.GetAxis(TAGS.MOUSE_X_AXIS) * sensitivity;
+        currentRot.y += Input.GetAxis(TAGS.MOUSE_Y_AXIS) * sensitivity;
+        currentRot.x = Mathf.Repeat(currentRot.x, 360);
+        currentRot.y = Mathf.Clamp(currentRot.y, -maxYAngle, maxYAngle);
+
+        pivot.rotation = Quaternion.Euler(currentRot.y, currentRot.x, 0);
+        //TODO add the offest back in so the player stays centered
+        
+        //cam.transform.rotation = Quaternion.Euler(currentRot.y, currentRot.x, 0);
     }
 }
