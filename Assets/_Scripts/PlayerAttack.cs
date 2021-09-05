@@ -23,9 +23,10 @@ public class PlayerAttack : MonoBehaviour
         {
             foreach (var weapon in weaponPoints)
             {
-                if (weapon.CanFire)
+                if (weapon.CanFire && TargetComputer.CurrentTarget != null)
                 {
-                    weapon.Fire();
+                    weapon.Fire_Targeted(TargetComputer.CurrentTarget.transform);
+                    //weapon.Fire();
                 }
                 
             }

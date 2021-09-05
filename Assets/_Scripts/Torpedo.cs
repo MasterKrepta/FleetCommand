@@ -22,6 +22,13 @@ public class Torpedo : MonoBehaviour, IWeapon
         StartCoroutine(RechargeWeapon());
     }
 
+    public void Fire_Targeted(Transform target)
+    {
+        print(target.name);
+        Instantiate(torpedoPrefab, transform.position, transform.rotation);
+        StartCoroutine(RechargeWeapon());
+    }
+
     IEnumerator RechargeWeapon()
     {
         CanFire = false;

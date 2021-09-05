@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class TargetComputer : MonoBehaviour
 {
-    public GameObject CurrentTarget;
+
+    public static TargetComputer Instance;
+
+    public static GameObject CurrentTarget;
     public GameObject[] targets;
     public GameObject[] targetsInRange;
 
