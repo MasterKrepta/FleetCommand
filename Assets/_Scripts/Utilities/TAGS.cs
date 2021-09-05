@@ -6,6 +6,7 @@ public class TAGS
 {
     public const string PLAYER = "Player";
     public const string ENEMY = "Enemy";
+    public const string TARGET = "Target";
 
     public const string HORIZONTAL_AXIS = "Horizontal";
     public const string VERTICAL_AXIS = "Vertical";

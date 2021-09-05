@@ -15,9 +15,6 @@ public class CameraFollow : MonoBehaviour
     public float speedH = 2.0f;
     public float speedV = 2.0f;
 
-    float yaw = 0f;
-    float pitch = 0;
-
 
     public float sensitivity = 10f;
     public float maxYAngle = 80f;
@@ -41,27 +38,15 @@ public class CameraFollow : MonoBehaviour
         {
             FollowMouse();
         }
-        
-        //cam.transform.rotation = Quaternion.Lerp(cam.transform.rotation, transform.rotation, 5f * Time.deltaTime);
-
-
     }
 
     private void FollowPlayer()
     {
         transform.position = target.position + offset;
-        //transform.position = Vector3.Lerp(transform.position + offset, target.transform.position, Smoothing);
-        //cam.transform.position = Vector3.Lerp(cam.transform.position,
-        //    transform.position - transform.forward * Smoothing + transform.up * 2f, 5f * Time.deltaTime);
     }
 
     private void FollowMouse()
     {
-        //yaw += speedH * Input.GetAxis(TAGS.MOUSE_X_AXIS);
-        //pitch -= speedV * Input.GetAxisRaw(TAGS.MOUSE_Y_AXIS);
-
-        //transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
-
         currentRot.x += Input.GetAxis(TAGS.MOUSE_X_AXIS) * sensitivity;
         currentRot.y += Input.GetAxis(TAGS.MOUSE_Y_AXIS) * sensitivity;
         currentRot.x = Mathf.Repeat(currentRot.x, 360);
@@ -69,7 +54,5 @@ public class CameraFollow : MonoBehaviour
 
         pivot.rotation = Quaternion.Euler(currentRot.y, currentRot.x, 0);
         //TODO add the offest back in so the player stays centered
-        
-        //cam.transform.rotation = Quaternion.Euler(currentRot.y, currentRot.x, 0);
     }
 }
