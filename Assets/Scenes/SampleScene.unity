@@ -1371,6 +1371,7 @@ MonoBehaviour:
   fireSpeed: 1
   BeamTime: 0.5
   Target: {fileID: 0}
+  rechargeTime: 1
 --- !u!120 &1830968236
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1391,7 +1392,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 15bc2eeb88f98e4428ecd75a90e9c504, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
