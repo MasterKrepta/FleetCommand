@@ -15,11 +15,11 @@ C:/Users/brian/Documents/Unity Projects/FleetCommand
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57858
+56011
 Successfully changed project path to: C:/Users/brian/Documents/Unity Projects/FleetCommand
 C:/Users/brian/Documents/Unity Projects/FleetCommand
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 109.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -31,125 +31,158 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     8031 MB
     Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002560 seconds.
+Registered in 0.002810 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 123.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.512 seconds
+- Completed reload, in  3.136 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009749 seconds.
+Registered in 0.010682 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 151.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.689 seconds
+- Completed reload, in  2.347 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.6 MB.
-System memory in use after: 172.8 MB.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.0 MB.
+System memory in use after: 228.2 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3208.
-Total: 23.472700 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.068400 ms MarkObjects: 23.025200 ms  DeleteObjects: 0.097300 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4485.
+Total: 28.013400 ms (FindLiveObjects: 0.533400 ms CreateObjectMapping: 0.195400 ms MarkObjects: 27.160800 ms  DeleteObjects: 0.121500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/StarSparrow/Materials
-  artifactKey: Guid(0cd1c379b1cdb36418f77d020a27acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials using Guid(0cd1c379b1cdb36418f77d020a27acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634899aa77ccb42f2b0eb58a9c1ae3f7') in 0.013331 seconds 
+  path: Assets/_Scripts/CameraFollow.cs
+  artifactKey: Guid(0950a9db8fe52624ea3ccf98791709c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/CameraFollow.cs using Guid(0950a9db8fe52624ea3ccf98791709c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316f89e02045424dddd476332aac77b') in 0.039892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 361.773704 seconds.
-  path: Assets/StarSparrow/Materials/PhaserShader.shader
-  artifactKey: Guid(191dbe3aa99f96142a9bf59b02828c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/PhaserShader.shader using Guid(191dbe3aa99f96142a9bf59b02828c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a3334e7cc21c521044b3f810a0e9f') in 0.047541 seconds 
+  Time since last request: 201.160523 seconds.
+  path: Assets/Materials/Phaser.png
+  artifactKey: Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Phaser.png using Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336949fd9f7adc9919a069f198e67160') in 0.088300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.956509 seconds.
+  path: Assets/Materials/Phaser.png
+  artifactKey: Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Phaser.png using Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3ec7fc405aa2063541b3703541c20b') in 0.066064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 778.754072 seconds.
+  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
+  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02395771a2135165c6cff1fe74f63d4') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.766825 seconds.
+  path: Assets/StarSparrow/Materials/PhaserMat.mat
+  artifactKey: Guid(15bc2eeb88f98e4428ecd75a90e9c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/PhaserMat.mat using Guid(15bc2eeb88f98e4428ecd75a90e9c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d9954ae288bdbc387cbffcef6f8823') in 0.060737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Weapons/WeaponEffect/PhaserPrefab.prefab
+  artifactKey: Guid(312717b60f46f464f86bef7a4a4beaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/WeaponEffect/PhaserPrefab.prefab using Guid(312717b60f46f464f86bef7a4a4beaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bdf7e658d9da6268d6f8b1079f188c') in 0.017695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.752156 seconds.
+  path: Assets/Materials/Phaser.png
+  artifactKey: Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Phaser.png using Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bfcfde30057e90c8f68ce05f549134') in 0.022413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.967995 seconds.
+  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
+  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f28d01f49478213b73aa41905b5a10') in 0.005087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.159076 seconds.
+  path: Assets/StarSparrow/Readme/ReadmeStarSparrow.asset
+  artifactKey: Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Readme/ReadmeStarSparrow.asset using Guid(831b6df9656715346bac250feaa321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8936af6939d53041c10cadd8db0f3034') in 0.012773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab
+  artifactKey: Guid(0478b1e28fd9831458b0f051b9d2ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab using Guid(0478b1e28fd9831458b0f051b9d2ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b107fb433a5a1f7aceed6844b525cb2f') in 0.069504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.757265 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow1.fbx
+  artifactKey: Guid(9eafec2478441af418574f3e9e971f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Meshes/StarSparrow1.fbx using Guid(9eafec2478441af418574f3e9e971f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134bfd0364913f218c7632f0cea8044e') in 0.056370 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4538.
+Total: 24.022300 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.099200 ms MarkObjects: 23.485400 ms  DeleteObjects: 0.083500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1273.994894 seconds.
+  path: Assets/Materials/Phaser.png
+  artifactKey: Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Phaser.png using Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea04ad78a568c9ac8da9b384099fad8d') in 0.014262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.527236 seconds.
+  path: Assets/StarSparrow/Materials/phaserMask.png
+  artifactKey: Guid(46656fa65bdcdd247b64183a80de5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/phaserMask.png using Guid(46656fa65bdcdd247b64183a80de5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3046e8a6da4e1ded67684757c279fb') in 0.026031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.258724 seconds.
+  path: Assets/StarSparrow/Materials/Phaser_01.png
+  artifactKey: Guid(ee624e14d7e582d49a15660a715ef3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Phaser_01.png using Guid(ee624e14d7e582d49a15660a715ef3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2448d9e4de46749fe0bbf32040edbbe9') in 0.021408 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011773 seconds.
+Registered in 0.010075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.764 seconds
+- Completed reload, in  1.974 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.6 MB.
-System memory in use after: 196.5 MB.
+Unloading 3918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.1 MB.
+System memory in use after: 230.3 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4009.
-Total: 21.738000 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.089800 ms MarkObjects: 21.057300 ms  DeleteObjects: 0.164300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4625.
+Total: 24.396800 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.113700 ms MarkObjects: 23.839700 ms  DeleteObjects: 0.076600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 175.581848 seconds.
-  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
-  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e36ccbd12fd8669e0a52547133197f1') in 0.027944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 393.842947 seconds.
-  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
-  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d287d1a89184eac245e3e0a636f3045') in 0.004281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.186580 seconds.
-  path: Assets/StarSparrow/Materials/Phaser.png
-  artifactKey: Guid(55cf99e4510012142beda4c331d7c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/Phaser.png using Guid(55cf99e4510012142beda4c331d7c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48bd47d0682badae145c98a08306b2a') in 0.080892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.663640 seconds.
-  path: Assets/StarSparrow/Materials/Phaser.png
-  artifactKey: Guid(55cf99e4510012142beda4c331d7c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/Phaser.png using Guid(55cf99e4510012142beda4c331d7c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf769140e0f8ce765fc308e727f454a') in 0.062050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 339.768031 seconds.
-  path: Assets/StarSparrow/Materials/NewUnlitShader.shader
-  artifactKey: Guid(c4930c4be1361ef4b9f624eb92b02ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/NewUnlitShader.shader using Guid(c4930c4be1361ef4b9f624eb92b02ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705b91212ab97448fc7b27ba5e8df886') in 0.009773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.695655 seconds.
-  path: Assets/StarSparrow/Materials/BonusContent
-  artifactKey: Guid(ef302250c453c6d4e87fbc461c7492ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/BonusContent using Guid(ef302250c453c6d4e87fbc461c7492ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e3a3782190ee83236443b5e382673e') in 0.008911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 104.538428 seconds.
-  path: Assets/StarSparrow/Materials/NewShaderVariants.shadervariants
-  artifactKey: Guid(3d6d011e4c08e984ebcfe894a5a33759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/NewShaderVariants.shadervariants using Guid(3d6d011e4c08e984ebcfe894a5a33759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d7082bbb1fd5275da955a6f72a73de') in 0.012617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.491155 seconds.
-  path: Assets/StarSparrow/Materials/PhaserShader.shadersubgraph
-  artifactKey: Guid(b162d14cdb2c5a440b3e5115bb9cb8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/PhaserShader.shadersubgraph using Guid(b162d14cdb2c5a440b3e5115bb9cb8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b896c3dc82953c1a82273c3c6fd974') in 0.008430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.270786 seconds.
-  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
-  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089be276c3eb0345411457641a41bcae') in 0.005292 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

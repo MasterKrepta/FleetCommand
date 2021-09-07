@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Torpedo : MonoBehaviour, IWeapon
+public class Launcher : MonoBehaviour, IWeapon
 {
     public GameObject torpedoPrefab;
     
