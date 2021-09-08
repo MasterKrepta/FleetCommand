@@ -24,8 +24,9 @@ public class Launcher : MonoBehaviour, IWeapon
 
     public void Fire_Targeted(Transform target)
     {
-        print(target.name);
-        Instantiate(torpedoPrefab, transform.position, transform.rotation);
+        transform.LookAt(target);
+        GameObject go =  Instantiate(torpedoPrefab, transform.position, transform.rotation);
+        
         StartCoroutine(RechargeWeapon());
     }
 
