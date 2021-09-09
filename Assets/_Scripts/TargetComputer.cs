@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TargetComputer : MonoBehaviour
 {
@@ -11,17 +12,26 @@ public class TargetComputer : MonoBehaviour
     public GameObject[] targets;
     public GameObject[] targetsInRange;
 
+
+    public Image targetReticle;
     public int currentIndex = 0;
     public int targetCount;
         private void Start()
     {
         targets = GameObject.FindGameObjectsWithTag(TAGS.TARGET);
         targetsInRange = targets; //TODO For Testing Only
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        targetReticle.enabled =  (CurrentTarget == null) ? false : true;
+        
+            
+        
+        
+        
         if (Input.GetKeyDown(KeyCode.LeftBracket))
         {
             CycleTargets(true);
