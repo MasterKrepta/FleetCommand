@@ -8,6 +8,7 @@ public class Phaser : MonoBehaviour, IWeapon
     LineRenderer lr;
     public float fireSpeed;
     public float BeamTime = .5f;
+    public float dmg;
     public GameObject Target;
 
     public bool CanFire { get; set; }
@@ -40,14 +41,17 @@ public class Phaser : MonoBehaviour, IWeapon
         print("phaser");
         float endTime = Time.time + BeamTime;
 
-        StartCoroutine(StartPhaser(target));
-        
+        if (TargetComputer.Instance.CurrentTarget != null)
+        {
+            StartCoroutine(StartPhaser(target));
+        }
     }
 
     IEnumerator StartPhaser(Transform target)
     {
         lr.enabled = true;
         //lr.SetPosition(0, transform.position);
+        target.GetComponent<IDamageable>().TakeDamage(dmg);
         lr.SetPosition(1, target.transform.position);
         yield return new WaitForSeconds(BeamTime);
 

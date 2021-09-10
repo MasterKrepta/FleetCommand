@@ -23,9 +23,9 @@ public class PlayerAttack : MonoBehaviour
         {
             foreach (var weapon in weaponPoints)
             {
-                if (weapon.CanFire && TargetComputer.CurrentTarget != null) //TODO firing arcs mechanics not designed. 
+                if (weapon.CanFire && TargetComputer.Instance.CurrentTarget != null) //TODO firing arcs mechanics not designed. 
                 {
-                    weapon.Fire_Targeted(TargetComputer.CurrentTarget.transform);
+                    weapon.Fire_Targeted(TargetComputer.Instance.CurrentTarget.transform);
                     //weapon.Fire();
                 }
                 

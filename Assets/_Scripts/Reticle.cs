@@ -16,10 +16,14 @@ public class Reticle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (visual.enabled == true && TargetComputer.CurrentTarget != null)
+        print(visual.name);
+        print(TargetComputer.Instance.CurrentTarget);
+        if (visual.enabled == true && TargetComputer.Instance.CurrentTarget != null)
         {
-            transform.position = Camera.main.WorldToScreenPoint(TargetComputer.CurrentTarget.transform.position);
+            transform.position = Camera.main.WorldToScreenPoint(TargetComputer.Instance.CurrentTarget.transform.position);
+            //TODO doesnt work if target is behind you. 
             //transform.localScale = TargetComputer.CurrentTarget.GetComponent<Renderer>().bounds.size;
+
         }
     }
 }

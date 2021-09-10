@@ -47,6 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rotSpeed: 30
+  explosionRange: 1
+  dmg: 1
 --- !u!54 &3032327967227979560
 Rigidbody:
   m_ObjectHideFlags: 0

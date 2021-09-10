@@ -7,6 +7,8 @@ public class MoveTowardsTarget : MonoBehaviour
     public float speed = 15f;
     public float rotSpeed = 200f;
     public float explosionRange = 1f;
+    public float dmg;
+    public float destroyTime = 5;
     Rigidbody rb;
 
     Transform target;
@@ -14,18 +16,31 @@ public class MoveTowardsTarget : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        target = TargetComputer.CurrentTarget.transform;
+        target = TargetComputer.Instance.CurrentTarget.transform;
     }
 
 
     private void Update()
     {
-        float distance = Vector3.Distance(transform.position, target.position);
+        
 
-        if (target == null || distance <= explosionRange)
+        if (target == null)
         {
-            Destroy(gameObject);
+            StartCoroutine(DestroyOverTime());
         }
+        else
+        {
+            float distance = Vector3.Distance(transform.position, target.position);
+
+            if (target == null || distance <= explosionRange)
+            {
+                target.GetComponent<IDamageable>().TakeDamage(dmg);
+                Destroy(gameObject);
+            }
+        }
+            
+
+        
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -40,12 +55,20 @@ public class MoveTowardsTarget : MonoBehaviour
 
             rb.angularVelocity = -rotAmount * rotSpeed;
 
-            rb.velocity = transform.forward * speed;
-        }
             
+        }
+        rb.velocity = transform.forward * speed;
+
 
         //rb.AddForce(transform.forward * speed * Time.deltaTime);
         //transform.Translate(transform.forward * speed * Time.deltaTime);
 
+    }
+
+    IEnumerator DestroyOverTime()
+    {
+        yield return new WaitForSeconds(destroyTime);
+        //TODO instantiate explosion effect. / Maybe cause damage
+        Destroy(this.gameObject);
     }
 }

@@ -8,17 +8,34 @@ public class TargetComputer : MonoBehaviour
 
     public static TargetComputer Instance;
 
-    public static GameObject CurrentTarget;
-    public GameObject[] targets;
-    public GameObject[] targetsInRange;
+    public  GameObject CurrentTarget;
+    public List<GameObject> targets;
+    public  List<GameObject> targetsInRange;
 
 
     public Image targetReticle;
     public int currentIndex = 0;
     public int targetCount;
-        private void Start()
+
+    private void Awake()
     {
-        targets = GameObject.FindGameObjectsWithTag(TAGS.TARGET);
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    private void Start()
+    {
+        var tempTargets = GameObject.FindGameObjectsWithTag(TAGS.TARGET);
+
+        foreach (var t in tempTargets)
+        {
+            targets.Add(t);
+        }
         targetsInRange = targets; //TODO For Testing Only
         
     }
@@ -29,10 +46,10 @@ public class TargetComputer : MonoBehaviour
         targetReticle.enabled =  (CurrentTarget == null) ? false : true;
         
             
+        //TODO handle Range mechanics to assign targets
         
         
-        
-        if (Input.GetKeyDown(KeyCode.LeftBracket))
+      if (Input.GetKeyDown(KeyCode.LeftBracket))
         {
             CycleTargets(true);
         }
@@ -45,7 +62,7 @@ public class TargetComputer : MonoBehaviour
 
     void CycleTargets(bool cycleLeft)
     {
-        targetCount = targetsInRange.Length;
+        targetCount = targetsInRange.Count;
      
 
         if (CurrentTarget == null)
@@ -72,7 +89,7 @@ public class TargetComputer : MonoBehaviour
             else
             {
                 currentIndex++;
-                if (currentIndex == targetsInRange.Length)
+                if (currentIndex == targetsInRange.Count)
                 {
                     CurrentTarget = targetsInRange[0];
                     currentIndex = 0;
@@ -82,5 +99,10 @@ public class TargetComputer : MonoBehaviour
                 CurrentTarget = targetsInRange[currentIndex];
             }
         }
+    }
+
+    public  void RemoveTarget(GameObject t)
+    {
+        targets.Remove(t);
     }
 }
