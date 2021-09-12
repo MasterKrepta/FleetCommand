@@ -16,8 +16,6 @@ public class Reticle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(visual.name);
-        print(TargetComputer.Instance.CurrentTarget);
         if (visual.enabled == true && TargetComputer.Instance.CurrentTarget != null)
         {
             transform.position = Camera.main.WorldToScreenPoint(TargetComputer.Instance.CurrentTarget.transform.position);

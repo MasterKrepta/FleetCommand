@@ -12,12 +12,15 @@ public class Phaser : MonoBehaviour, IWeapon
     public GameObject Target;
 
     public bool CanFire { get; set; }
+    
     public float rechargeTime = 1f;
 
+    FOV parentFov;
 
     private void Awake()
     {
         lr = GetComponent<LineRenderer>();
+        parentFov = GetComponentInParent<FOV>();
         lr.enabled = false;
     }
 
@@ -38,7 +41,6 @@ public class Phaser : MonoBehaviour, IWeapon
     }
     public void Fire_Targeted(Transform target)
     {
-        print("phaser");
         float endTime = Time.time + BeamTime;
 
         if (TargetComputer.Instance.CurrentTarget != null)
@@ -68,5 +70,15 @@ public class Phaser : MonoBehaviour, IWeapon
         CanFire = false;
         yield return new WaitForSeconds(rechargeTime);
         CanFire = true;
+    }
+
+    public bool TargetInRange()
+    {
+        if (parentFov.target == TargetComputer.Instance.CurrentTarget)
+        {
+            return parentFov.targetInArc;
+        }
+        else return false;
+        
     }
 }

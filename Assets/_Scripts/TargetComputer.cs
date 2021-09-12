@@ -95,7 +95,7 @@ public class TargetComputer : MonoBehaviour
                     currentIndex = 0;
                     return;
                 }
-
+                //todo bugs when targets destroyed
                 CurrentTarget = targetsInRange[currentIndex];
             }
         }

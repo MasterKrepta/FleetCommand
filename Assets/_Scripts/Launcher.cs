@@ -10,7 +10,12 @@ public class Launcher : MonoBehaviour, IWeapon
     public float rechargeTime = 1f;
 
     public bool CanFire { get; set; }
+    FOV parentFov;
 
+    private void Awake()
+    {
+        parentFov = GetComponentInParent<FOV>();
+    }
     private void Start()
     {
         StartCoroutine(RechargeWeapon());
@@ -35,5 +40,10 @@ public class Launcher : MonoBehaviour, IWeapon
         CanFire = false;
         yield return new WaitForSeconds(rechargeTime);
         CanFire = true;
+    }
+
+    public bool TargetInRange()
+    {
+        return parentFov.targetInArc;
     }
 }
