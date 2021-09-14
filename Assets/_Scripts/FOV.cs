@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FOV : MonoBehaviour
 {
     public float Radius = 45;
+    public Text inRange;
 
     [Range(0, 360)]
     public float Angle;
@@ -26,11 +28,15 @@ public class FOV : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         Collider[] rangeCheck = Physics.OverlapSphere(transform.position, Radius, targetMask);
 
         if (rangeCheck.Length !=  0)
         {
-            target = rangeCheck[0].transform;
+            target = rangeCheck[0].transform.parent.transform.parent;
+
+
 
 
             Vector3 dir = (target.position - transform.position).normalized;
@@ -43,28 +49,32 @@ public class FOV : MonoBehaviour
                     targetInArc = true;
                 else
                     targetInArc = false;
-            } 
+            }
             else
             {
                 targetInArc = false;
-            } 
+            }
         }
         else if (targetInArc)
             targetInArc = false;
+
+
+        SetDebug_TargetInRange();
     }
 
-
-
-
-
-
-
-    float FindDegree(int x, int y)
+    private void SetDebug_TargetInRange()
     {
-        float value = Mathf.Atan2(x, y) / math.PI * 180f;
-        if (value < 0) value += 360f;
-
-        return value;
-
+        if (target != null)
+        {
+            if (targetInArc)
+            {
+                inRange.text = "In Arc: " + target.name;
+            }
+            else
+            {
+                inRange.text = "In Arc: ";
+            }
+        }
     }
+      
 }

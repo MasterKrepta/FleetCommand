@@ -71,14 +71,15 @@ public class Phaser : MonoBehaviour, IWeapon
         yield return new WaitForSeconds(rechargeTime);
         CanFire = true;
     }
-
     public bool TargetInRange()
     {
-        if (parentFov.target == TargetComputer.Instance.CurrentTarget)
+        print($"Current {TargetComputer.Instance.CurrentTarget.name} || in arc: {parentFov.target.name}");
+
+        if (TargetComputer.Instance.CurrentTarget.name == parentFov.target.name && parentFov.targetInArc)
         {
-            return parentFov.targetInArc;
+            return true;
         }
-        else return false;
-        
+        //return parentFov.targetInArc;
+        return false;
     }
 }
