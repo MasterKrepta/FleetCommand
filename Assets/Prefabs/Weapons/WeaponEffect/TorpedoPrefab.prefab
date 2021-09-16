@@ -45,10 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758ea67468129494c9788219d1ffbb92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   rotSpeed: 30
   explosionRange: 1
   dmg: 1
+  destroyTime: 5
 --- !u!54 &3032327967227979560
 Rigidbody:
   m_ObjectHideFlags: 0

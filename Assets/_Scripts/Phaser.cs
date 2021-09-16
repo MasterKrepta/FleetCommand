@@ -31,7 +31,7 @@ public class Phaser : MonoBehaviour, IWeapon
 
     public void Fire()
     {
-   
+           
         
     }
 
@@ -52,17 +52,14 @@ public class Phaser : MonoBehaviour, IWeapon
     IEnumerator StartPhaser(Transform target)
     {
         lr.enabled = true;
-        //lr.SetPosition(0, transform.position);
         target.GetComponent<IDamageable>().TakeDamage(dmg);
         lr.SetPosition(1, target.transform.position);
         yield return new WaitForSeconds(BeamTime);
 
-        //lr.SetPosition(0, transform.position);
         //TODO make the end of the beam slerp to the target
 
         lr.enabled = false;
         StartCoroutine(RechargeWeapon());
-        
     }
 
     IEnumerator RechargeWeapon()
@@ -73,7 +70,9 @@ public class Phaser : MonoBehaviour, IWeapon
     }
     public bool TargetInRange()
     {
-        print($"Current {TargetComputer.Instance.CurrentTarget.name} || in arc: {parentFov.target.name}");
+        print($"Current {TargetComputer.Instance.CurrentTarget.name}");
+
+        print($"in arc: {parentFov.target.name}");
 
         if (TargetComputer.Instance.CurrentTarget.name == parentFov.target.name && parentFov.targetInArc)
         {
@@ -81,5 +80,6 @@ public class Phaser : MonoBehaviour, IWeapon
         }
         //return parentFov.targetInArc;
         return false;
+
     }
 }
