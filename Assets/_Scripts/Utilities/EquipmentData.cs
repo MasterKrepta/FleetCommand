@@ -10,9 +10,14 @@ public enum EquipmentType
 public class EquipmentData : ScriptableObject, IEquipable
 {
     public string Name = "New Equipment";
-    public Image Icon;
+    [SerializeField]
+    private Sprite _icon;
+    [SerializeField]
+    private bool _isAvail;
     public EquipmentType Type = EquipmentType.HARDPOINT;
     public int MaxMass = 1;
 
-    float IEquipable.EnergyDemand { get; set; }
+    public float EnergyDemand { get; set; }
+    public Sprite Icon { get; set; }
+    public bool isAvail { get; set; }
 }
