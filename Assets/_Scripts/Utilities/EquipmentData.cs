@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum EquipmentType
+public enum EquipmentTypes
 {
-    SHIELD, REACTOR, HARDPOINT, TRACTORS, SCIENCE, MINING
+  
 }
 
 [CreateAssetMenu(fileName = "New Equipment", menuName = "Scriptables/Equipment")]

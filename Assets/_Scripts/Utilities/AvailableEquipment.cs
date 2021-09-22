@@ -7,12 +7,13 @@ using UnityEngine.UI;
 public class AvailableEquipment : MonoBehaviour
 {
 
-    public WeaponData[] equipables;
+    public SystemObject[] equipables;
     // Start is called before the first frame update
     void OnEnable()
     {
         
-        // load all equpment dynamically
+        //TODO load all equpment dynamically
+
         GetAvailableEquipment();
         
     }

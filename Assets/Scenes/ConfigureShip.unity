@@ -1011,8 +1011,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1353323211}
-  - component: {fileID: 1353323213}
   - component: {fileID: 1353323212}
+  - component: {fileID: 1353323213}
   m_Layer: 5
   m_Name: AvailableEquipment
   m_TagString: Untagged
