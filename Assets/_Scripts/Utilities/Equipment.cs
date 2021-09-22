@@ -10,15 +10,11 @@ public enum EquipmentType
 [CreateAssetMenu(fileName = "New Equipment", menuName = "slotables/Equipment")]
 public class Equipment : SystemObject
 {
-
-    private Sprite _icon;
-        
     public EquipmentType Type = EquipmentType.HARDPOINT;
     public int MaxMass = 1;
-
     public float EnergyDemand;
-    public Sprite Icon;
-    public bool isAvail;
+    
+    
 
     private void Awake()
     {

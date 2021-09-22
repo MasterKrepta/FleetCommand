@@ -14,5 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
   type: 0
+  IsAvail: 1
   icon: {fileID: 21300000, guid: 97a52e30546c21a47b49a3efc3887ad5, type: 3}
   Name: Type I Phaser
+  Type: 0
+  Damage: 1
+  FireRate: 2
+  EnergyDemand: 0
+  Icon: {fileID: 0}

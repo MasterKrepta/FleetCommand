@@ -11,14 +11,9 @@ public enum WeaponType
 public class Weapon : SystemObject
 {
     public WeaponType Type = WeaponType.ENERGY;
-    public bool isAvail;
-
     public float Damage = 1f;
     public float FireRate = 2f;
-
     public float EnergyDemand;
-    public Sprite Icon;
-
 
     private void Awake()
     {
