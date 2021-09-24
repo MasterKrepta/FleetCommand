@@ -10,6 +10,8 @@ public class ShipConfiguration : MonoBehaviour
 
     public Slot[] hardpoints;
 
+    public GameObject SelectedSlot;
+
     private void Awake()
     {
         //TODO get data from saved ship system
@@ -40,8 +42,18 @@ public class ShipConfiguration : MonoBehaviour
             newObj.transform.SetParent(parent);
             newObj.name = (child.name);
 
+            AddSlotScript(newObj);
+
 
 
         }
+    }
+
+    private void AddSlotScript(GameObject newObj)
+    {
+        //Clickable clickable = newObj.AddComponent<Clickable>();
+        
+        newObj.AddComponent<Slot>();
+
     }
 }
