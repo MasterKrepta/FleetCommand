@@ -11,9 +11,7 @@ public enum EquipmentType
 public class Equipment : SystemObject
 {
     public EquipmentType Type = EquipmentType.HARDPOINT;
-    public int MaxMass = 1;
-    public float EnergyDemand;
-    
+ 
     
 
     private void Awake()

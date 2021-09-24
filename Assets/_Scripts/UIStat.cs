@@ -6,16 +6,28 @@ using UnityEngine.UI;
 
 public class UIStat : MonoBehaviour
 {
+    public EquipmentManager equipmentManager;
+
+    [SerializeField]
     private GameObject _selected;
 
     public Sprite selIconGraphic;
     public Image selIcon;
-    public Text selName, selDmg, selPwr, selCst;
+    public Text selName, selSize, selDesc, selDmg, selPwr, selCst;
     
-    public float dmg, pwr, cst = 1f;
+
+    private void OnEnable()
+    {
+        equipmentManager = FindObjectOfType<EquipmentManager>();
+        equipmentManager.OnSelectedEquipmentChange += GetNewSelected;
+    }
+
+    private void OnDisable()
+    {
+        equipmentManager.OnSelectedEquipmentChange -= GetNewSelected;
+    }
 
 
-        
     public GameObject Selected
     {
         get { return _selected; }
@@ -27,27 +39,19 @@ public class UIStat : MonoBehaviour
 
     private void SetupSelected()
     {
-        selIconGraphic = Selected.GetComponent<SystemObject>().icon;
+        SystemObject data = Selected.GetComponent<Clickable>().data;
+        selIconGraphic = data.icon;
         selIcon.sprite = selIconGraphic;
         selName.text = _selected.name;
-        selCst.text = cst.ToString();
-        selDmg.text = dmg.ToString();
-        selPwr.text = pwr.ToString() ;
+        selDesc.text = $"Desc:  { data.Desc.ToString()}";
+        selSize.text = $"Size:  {data.Size.ToString()}";
+        selCst.text = $"Cost:   {data.Cost.ToString()}";
+        selDmg.text = $"Damage: {data.Damage.ToString()}";
+        selPwr.text = $"Power:  {data.Power.ToString()}";
     }
 
     void GetNewSelected()
     {
-
+        Selected = equipmentManager.SelectedEquipment;
     }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        selIcon = GetComponent<Image>();
-        _selected = FindObjectOfType<EquipmentManager>().SelectedEquipment;
-        //TODO set up event system OnChangeSelectedEquipment
-    }
-
-    
 }

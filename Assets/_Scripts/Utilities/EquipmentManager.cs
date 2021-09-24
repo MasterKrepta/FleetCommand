@@ -11,7 +11,7 @@ public class EquipmentManager : MonoBehaviour
     public Equipment[] AvailEquipment;
     //public GameObject SelectedEquipment;
 
-    public static event Action OnSelectedEquipmentChange;
+    public  event Action OnSelectedEquipmentChange;
     
 
     private GameObject _selectedEquipment;
@@ -19,7 +19,10 @@ public class EquipmentManager : MonoBehaviour
     public GameObject SelectedEquipment
     {
         get { return _selectedEquipment; }
-        set { _selectedEquipment = value; }
+        set { 
+            _selectedEquipment = value;
+            OnSelectedEquipmentChange();
+        }
     }
 
 
@@ -50,7 +53,7 @@ public class EquipmentManager : MonoBehaviour
                 newImage.transform.SetParent(this.gameObject.transform);
                 newImage.name = item.Name;
 
-                AddClickableScript(newImage);
+                AddClickableScript(newImage, item);
             }
             
         }
@@ -66,15 +69,16 @@ public class EquipmentManager : MonoBehaviour
                 newImage.transform.SetParent(this.gameObject.transform);
                 newImage.name = item.Name;
 
-                AddClickableScript(newImage);
+                AddClickableScript(newImage, item);
             }
         }
     }
 
-    private void AddClickableScript(GameObject newImage)
+    private void AddClickableScript(GameObject newImage, SystemObject slot)
     {
         Button btn = newImage.AddComponent<Button>();
         Clickable clickable =  newImage.AddComponent<Clickable>();
+        clickable.data = slot;
         
         
 

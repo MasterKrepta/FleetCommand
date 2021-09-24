@@ -7,6 +7,7 @@ public class Clickable : MonoBehaviour
 {
 
     public EquipmentManager equipmentManager;
+    public SystemObject data;
     private void Start()
     {
         equipmentManager = GetComponentInParent<EquipmentManager>();
@@ -16,7 +17,7 @@ public class Clickable : MonoBehaviour
 
     public void OnSelected()
     {
-        print(this.gameObject.name);
+        //print(this.gameObject.name);
         equipmentManager.SelectedEquipment = this.gameObject;
     }
 }
