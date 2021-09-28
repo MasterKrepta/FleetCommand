@@ -56,4 +56,9 @@ public class ShipConfiguration : MonoBehaviour
         newObj.AddComponent<Slot>();
 
     }
+
+    public void Assign()
+    {
+
+    }
 }

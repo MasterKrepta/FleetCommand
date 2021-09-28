@@ -9,11 +9,13 @@ public class EquipmentManager : MonoBehaviour
 
     public Weapon[] AvailWeapons;
     public Equipment[] AvailEquipment;
+    public GameObject AssignBtn;
     //public GameObject SelectedEquipment;
+    ShipConfiguration ship;
 
     public  event Action OnSelectedEquipmentChange;
     
-
+    [SerializeField]
     private GameObject _selectedEquipment;
 
     public GameObject SelectedEquipment
@@ -35,6 +37,7 @@ public class EquipmentManager : MonoBehaviour
         //equipables = Resources.LoadAll("Resources", typeof(SystemObject)); 
         
         GetAvailSystems();
+        ship = FindObjectOfType<ShipConfiguration>();
 
 
         
@@ -83,5 +86,60 @@ public class EquipmentManager : MonoBehaviour
         
 
     }
+
+    public void AssignEquipmentToSlot()
+    {
+        print("selected");
+        GameObject parentSlot = GameObject.Find(ship.SelectedSlot.name);
+
+        GameObject equipmentGO =  MakeGameObjectFromEquipmentData();
+        //Create prefab.
+        ship.SelectedSlot.GetComponent<Image>().sprite = SelectedEquipment.GetComponent<Clickable>().data.icon;
+        //Parent it to ship variable. 
+
+        equipmentGO.transform.parent = parentSlot.transform;
+        equipmentGO.transform.position = Vector3.zero;
+        equipmentGO.AddComponent<Clickable>().data = SelectedEquipment.GetComponent<Clickable>().data;
+
+        
+        //AssignBtn.SetActive(false);
+        RemoveAvailalbeEquipiment(SelectedEquipment);
+
+        //TODO remove image from avaiialbe equipment (and reverse)
+
+    }
+
+    public void UnassignEquipment()
+    {
+        //TODO re add the equipment to the list based on data type. 
+        //var data = SelectedEquipment.GetComponent<Clickable>().data;
+
+        //GameObject newImage = new GameObject();
+        //newImage.AddComponent<Image>().sprite = item.icon;
+        //newImage.transform.SetParent(this.gameObject.transform);
+        //newImage.name = item.Name;
+
+        //AddClickableScript(newImage, item);
+    }
+    private void RemoveAvailalbeEquipiment(GameObject selectedEquipment)
+    {
+       // Destroy(ship.SelectedSlot);
+        Destroy(selectedEquipment);
+    }
+
+    void ReturnEquipmentToAvailable(GameObject equipmentToReturn)
+    {
+        //todo return equipment
+    }
+
+    private GameObject MakeGameObjectFromEquipmentData()
+    {
+        var data = SelectedEquipment.GetComponent<Clickable>().data;
+        GameObject newGO = new GameObject();
+        newGO.name = data.name;
+        return newGO;
+    }
+
+    
 }
 
