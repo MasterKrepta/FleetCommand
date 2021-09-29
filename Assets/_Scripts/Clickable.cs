@@ -18,6 +18,9 @@ public class Clickable : MonoBehaviour
     public void OnSelected()
     {
         //print(this.gameObject.name);
-        equipmentManager.SelectedEquipment = this.gameObject;
+
+        ShipStore.SelectedSystem = data;
+        print(data.Name);
+        //OLDER VERISON equipmentManager.SelectedEquipment = this.gameObject;
     }
 }
