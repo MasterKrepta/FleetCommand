@@ -6,11 +6,19 @@ using UnityEngine.UI;
 public class ShipStore : MonoBehaviour
 {
 
+
+    //TODO this script is doing alot and can be refactored
+    public static ShipStore Instance;
+    [SerializeField]
     private static SystemObject _SelectedSystem;
-    private static SlotGraphic _selectedSlot;
+    [SerializeField]
+    private static Slot _selectedSlot;
 
     public ShipObject playerShip;
-    public static SlotGraphic SelectedSlot
+
+    public List<GameObject> storeInventory = new List<GameObject>();
+    
+    public static Slot SelectedSlot
     {
         get { return _selectedSlot; }
         set 
@@ -18,6 +26,22 @@ public class ShipStore : MonoBehaviour
             _selectedSlot = value;
             print("Set Selected Slot");
         }
+    }
+
+
+    private void Awake()
+    {
+        #region Singleton
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+        #endregion
+
     }
     public static SystemObject SelectedSystem
     {
@@ -28,12 +52,12 @@ public class ShipStore : MonoBehaviour
             print("Set Selected System");
         }
     }
-    public GameObject AvailIcon;
-    public Sprite emptyImage;
+    
+    //public Sprite emptyImage;
 
     private void Start()
     {
-        AssignHardpoints();
+        //AssignHardpoints();
         AssignAvailableSystems();
         
     }
@@ -42,38 +66,22 @@ public class ShipStore : MonoBehaviour
     {
         foreach (var item in playerShip.AvailableSystems)
         {
-            var newSystem = Instantiate(AvailIcon, transform.position, Quaternion.identity);
-
-            newSystem.transform.SetParent(this.transform);
-            newSystem.GetComponent<Image>().sprite = item.icon;
-            newSystem.name = item.name;
-
-            newSystem.AddComponent<Clickable>().data = item;
+            CreateNewSystem(item);
         }
     }
 
-    void AssignHardpoints()
+    public void CreateNewSystem(SystemObject item)
     {
-        foreach (var child in playerShip.slots)
-        {
+        var newSystem = Instantiate(item.availIcon, transform.position, Quaternion.identity);
 
-            GameObject newObj = new GameObject();
-            newObj.AddComponent<Image>();
-            //TODO only do this if we are empty
-            newObj.GetComponent<Image>().sprite = emptyImage;
+        newSystem.transform.SetParent(this.transform);
+        newSystem.GetComponent<Image>().sprite = item.icon;
+        newSystem.name = item.name;
 
-            RectTransform rectTran = newObj.GetComponent<RectTransform>();
-            rectTran.sizeDelta = new Vector2(50, 50);
-
-            newObj.transform.position = Camera.main.WorldToScreenPoint(child.transform.position);
-            newObj.transform.SetParent(transform.parent);
-            newObj.name = (child.name);
-
-            newObj.AddComponent<SlotGraphic>().slot = child.gameObject;
-
-
-        }
+        newSystem.AddComponent<Clickable>().data = item;
+        storeInventory.Add(newSystem);
     }
+
 
     public void InstallEquipment()
     {

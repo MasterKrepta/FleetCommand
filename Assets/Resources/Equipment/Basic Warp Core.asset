@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c87fad47c640ce4f833c6addf082236, type: 3}
   m_Name: Basic Warp Core
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  availIcon: {fileID: 2755454743140903539, guid: 4476fa86171a7994fb77b84f8e04c572, type: 3}
   type: 0
   IsAvail: 1
   icon: {fileID: 21300000, guid: 57e52b8b720ab454eaaae60379a91b04, type: 3}

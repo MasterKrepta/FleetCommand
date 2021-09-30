@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1d9ca448cc7221a41bdba9ba493bd749, type: 2}
   - {fileID: 11400000, guid: 91738418d11b3e74fbea3aef36769c51, type: 2}
   - {fileID: 11400000, guid: aca22c8027dcc524bbc9f0f362a70b4d, type: 2}
+  StoreObjects: []
   slots:
   - {fileID: 0}
   - {fileID: 0}

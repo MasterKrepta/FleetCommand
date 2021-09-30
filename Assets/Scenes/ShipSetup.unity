@@ -1369,8 +1369,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
   InstalledSystem: {fileID: 0}
+  SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
-  emptyImage: {fileID: 0}
+  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
 --- !u!1 &1353323210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,7 +1446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerShip: {fileID: 11400000, guid: 70a20b527e4f792438b271551f805a7d, type: 2}
-  AvailIcon: {fileID: 2755454743140903539, guid: 4476fa86171a7994fb77b84f8e04c572, type: 3}
   emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
 --- !u!1 &1431267228
 GameObject:
@@ -1977,8 +1977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
   InstalledSystem: {fileID: 0}
+  SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
-  emptyImage: {fileID: 0}
+  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
 --- !u!4 &7994543370657948793
 Transform:
   m_ObjectHideFlags: 0
@@ -2038,5 +2039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
   InstalledSystem: {fileID: 0}
+  SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
   emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}

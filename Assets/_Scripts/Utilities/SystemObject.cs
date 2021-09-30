@@ -8,7 +8,7 @@ public enum SystemType
 }
 public abstract class SystemObject : ScriptableObject
 {
-    public GameObject prefab;
+    public GameObject availIcon;
     public SystemType type;
     public bool IsAvail;
     public Sprite icon;

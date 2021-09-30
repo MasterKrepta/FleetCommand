@@ -6,8 +6,8 @@ using UnityEngine;
 public class ShipObject : ScriptableObject
 {
     public List<SystemObject> AvailableSystems = new List<SystemObject>();
-    public List<GameObject> StoreObjets = new List<GameObject>();
-    public Transform[] slots;
+    public List<GameObject> StoreObjects = new List<GameObject>();
+    public Slot[] slots;
 
     //public void AssignSystem(SystemObject systemToAdd)
     //{
@@ -26,7 +26,7 @@ public class ShipObject : ScriptableObject
         //AvailableSystems = Resources.LoadAll("Resources", typeof(SystemObject));
     }
 
-    public void ChangeSystem(SystemObject newSystem, SystemObject OldSystem, SlotGraphic slotToInstall)
+    public void ChangeSystem(SystemObject newSystem, SystemObject OldSystem, Slot slotToInstall)
     {
         Debug.Log("Change system");
         if (OldSystem != null)
@@ -37,15 +37,38 @@ public class ShipObject : ScriptableObject
 
         //install new into slot. 
         slotToInstall.InstalledSystem = newSystem;
+        GameObject systemIcon = ConvertSystemToGO(newSystem);
+        ShipStore.Instance.storeInventory.Remove(systemIcon);
+        Destroy(systemIcon);
+           
         //StoreObjets.Remove(newSystem.Name);
 
     }
 
     public void UnistallSystem(SystemObject oldSystem)
     {
+        if (ShipStore.SelectedSlot == null)
+            return;
+        ShipStore.SelectedSlot.InstalledSystem = null; 
 
+        ShipStore.Instance.CreateNewSystem(oldSystem);
     }
 
+
+    GameObject ConvertSystemToGO(SystemObject obj)
+    {
+        GameObject objToRemove;
+        //TODO this seems more complex then it needs to be. 
+        foreach (var item in ShipStore.Instance.storeInventory)
+        {
+            if (obj.name == item.name)
+            {
+                objToRemove = item;
+                return objToRemove;
+            }
+        }
+        return null;
+    }
 }
 
 
