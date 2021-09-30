@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Slot : MonoBehaviour
+public class SlotGraphic : MonoBehaviour
 {
     public ShipConfiguration shipConfiguration;
     public SystemObject InstalledSystem;
+    public GameObject slot;
     public bool available;
     public Sprite emptyImage;
 
@@ -39,9 +40,9 @@ public class Slot : MonoBehaviour
 
     void OnSelected()
     {
-        print(this.gameObject.name);
-        //ShipStore.SelectedSlot = this;
-        print("Slot: " + this.name);
+        
+        ShipStore.SelectedSlot = this;
+        //print("Slot: " + this.name);
         //shipConfiguration.SelectedSlot = this.gameObject;
     }
 }

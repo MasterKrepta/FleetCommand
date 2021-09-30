@@ -11,7 +11,14 @@ public class Clickable : MonoBehaviour
     private void Start()
     {
         equipmentManager = GetComponentInParent<EquipmentManager>();
+        
         Button btn = GetComponent<Button>();
+
+        if (btn == null)
+        {
+            btn = gameObject.AddComponent<Button>();
+        }
+
         btn.onClick.AddListener(OnSelected);
     }
 
@@ -20,7 +27,7 @@ public class Clickable : MonoBehaviour
         //print(this.gameObject.name);
 
         ShipStore.SelectedSystem = data;
-        print(data.Name);
+        //print("Selected Equipment: " + data.Name);
         //OLDER VERISON equipmentManager.SelectedEquipment = this.gameObject;
     }
 }
