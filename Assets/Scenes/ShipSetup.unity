@@ -300,10 +300,10 @@ RectTransform:
   m_Father: {fileID: 459929363}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275, y: -100}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93478216
 MonoBehaviour:
@@ -572,6 +572,7 @@ RectTransform:
   - {fileID: 1939207271}
   - {fileID: 1086887156}
   - {fileID: 957976524}
+  - {fileID: 1087475800}
   m_Father: {fileID: 1850857467}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -685,10 +686,10 @@ RectTransform:
   m_Father: {fileID: 459929363}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275, y: -200}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502432969
 MonoBehaviour:
@@ -1073,6 +1074,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086887155}
   m_CullTransparentMesh: 1
+--- !u!1 &1087475799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087475800}
+  m_Layer: 5
+  m_Name: slotParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1087475800
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087475799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 326346405}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &1103192088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,10 +1404,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
+  slotParent: {fileID: 1087475799}
   InstalledSystem: {fileID: 0}
   SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
-  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
 --- !u!1 &1353323210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,7 +1482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerShip: {fileID: 11400000, guid: 70a20b527e4f792438b271551f805a7d, type: 2}
-  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
+  storeInventory: []
 --- !u!1 &1431267228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,10 +1515,10 @@ RectTransform:
   m_Father: {fileID: 459929363}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275, y: -50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431267230
 MonoBehaviour:
@@ -1558,10 +1594,10 @@ RectTransform:
   m_Father: {fileID: 459929363}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275, y: -150}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1752110715
 MonoBehaviour:
@@ -1976,10 +2012,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
+  slotParent: {fileID: 1087475799}
   InstalledSystem: {fileID: 0}
   SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
-  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
 --- !u!4 &7994543370657948793
 Transform:
   m_ObjectHideFlags: 0
@@ -2038,7 +2074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shipConfiguration: {fileID: 0}
+  slotParent: {fileID: 1087475799}
   InstalledSystem: {fileID: 0}
   SlotIcon: {fileID: 2755454743140903539, guid: 6e26948baee549f48aa001ead44a5680, type: 3}
   available: 0
-  emptyImage: {fileID: 21300000, guid: 666212cb4c1311449af25b9ffbe72eb3, type: 3}
