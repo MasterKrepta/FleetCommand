@@ -28,4 +28,16 @@ public class SpawnShieldImpact : MonoBehaviour
             Destroy(impact, 2);
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Weapon")
+        {
+            var impact = Instantiate(shieldImpact, transform) as GameObject;
+            shieldImpactVFX = impact.GetComponent<VisualEffect>();
+
+            
+            shieldImpactVFX.SetVector3("SphereCenter", collision.contacts[0].point);
+        }
+    }
 }
