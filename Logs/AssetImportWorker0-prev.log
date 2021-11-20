@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.1f1 (c20c6d589440) revision 12717165'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32720 MB
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 16252 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.2.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/brian/Documents/Unity Projects/FleetCommand
+C:/Users/brian/Documents/Unity/FleetCommand
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53500
-Successfully changed project path to: C:/Users/brian/Documents/Unity Projects/FleetCommand
-C:/Users/brian/Documents/Unity Projects/FleetCommand
+63125
+Successfully changed project path to: C:/Users/brian/Documents/Unity/FleetCommand
+C:/Users/brian/Documents/Unity/FleetCommand
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,158 @@ C:/Users/brian/Documents/Unity Projects/FleetCommand
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 141.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.1f1 (c20c6d589440)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/brian/Documents/Unity Projects/FleetCommand/Assets
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/brian/Documents/Unity/FleetCommand/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
     Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   30.0.14.7212
+    VRAM:     6023 MB
+    Driver:   30.0.14.9676
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010764 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006757 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
+- Completed reload, in  0.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1386ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020219 seconds.
+Registered in 0.010802 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity Projects\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity Projects\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  3.096 seconds
+- Completed reload, in  2.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3097ms)
-		BeginReloadAssembly (210ms)
+	ReloadAssembly (2909ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (2762ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2663ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2116ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2141ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (1723ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (1836ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4859 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (0.8 MB). Loaded Objects now: 5357.
-Memory consumption went from 263.4 MB to 262.5 MB.
-Total: 26.435700 ms (FindLiveObjects: 0.535500 ms CreateObjectMapping: 0.126600 ms MarkObjects: 25.277500 ms  DeleteObjects: 0.494500 ms)
+<WakaTime> Got response
+{"data":{"id":"31bb52b9-4630-472c-ba53-f8d3df433e45"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
+
+Unloading 5443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5940.
+Memory consumption went from 214.3 MB to 212.9 MB.
+Total: 25.360900 ms (FindLiveObjects: 0.440500 ms CreateObjectMapping: 0.398700 ms MarkObjects: 23.944800 ms  DeleteObjects: 0.575500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -159,281 +206,286 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 916624.291761 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(38a99ee548f875a43aae894c0c3181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(38a99ee548f875a43aae894c0c3181da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7937733597b551a93a655a6a382da8') in 0.054766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.860126 seconds.
-  path: Assets/Resources/Equipment/Basic Warp Core.asset
-  artifactKey: Guid(aca22c8027dcc524bbc9f0f362a70b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Equipment/Basic Warp Core.asset using Guid(aca22c8027dcc524bbc9f0f362a70b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29704fcdb54a040141013fb11ba21f49') in 0.025839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.506739 seconds.
-  path: Assets/Resources/Shield/ShieldTexture.png
-  artifactKey: Guid(63bf7b90d9a66274c8f3354ff123a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Shield/ShieldTexture.png using Guid(63bf7b90d9a66274c8f3354ff123a147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788b2c00ff79c50a8efc84d53ffcc4ec') in 0.099482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.776974 seconds.
-  path: Assets/Resources/Shield/ShieldShader.shadergraph
+  Time since last request: 9799.087360 seconds.
+  path: Assets/Models/Shield/ShieldShader.shadergraph
   artifactKey: Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Shield/ShieldShader.shadergraph using Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85189ade93a1027a36d8fc7a64dfc577') in 0.008836 seconds 
+Start importing Assets/Models/Shield/ShieldShader.shadergraph using Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f1f75d9edff1f8da8ffb274052c83b') in 0.040078 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.612149 seconds.
-  path: Assets/Scenes/ShieldTest.unity
-  artifactKey: Guid(231c24f6ac86d944f901858cc9b9792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShieldTest.unity using Guid(231c24f6ac86d944f901858cc9b9792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822a9efb0f41f038f9ac5b29a245f7e4') in 0.007832 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/vfx_Shield Impact.prefab
+  artifactKey: Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/vfx_Shield Impact.prefab using Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431857f2d5eb3d5ed57e59e05d1aa2ef') in 0.201409 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008804 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1967ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (1286ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"a97e575d-69b5-4ab7-9818-c9d5ac951bb6"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
+
+Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 6002.
+Memory consumption went from 217.1 MB to 216.0 MB.
+Total: 24.228300 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.423500 ms MarkObjects: 23.123400 ms  DeleteObjects: 0.258400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 430.392433 seconds.
-  path: Assets/Scenes/ShieldTest.unity
-  artifactKey: Guid(231c24f6ac86d944f901858cc9b9792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ShieldTest.unity using Guid(231c24f6ac86d944f901858cc9b9792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ec193e6110fe602669ba659e368296') in 0.003018 seconds 
+  Time since last request: 24.235307 seconds.
+  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
+  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe12ccbc99bf90132fb13c8b2e32346e') in 0.183797 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.092874 seconds.
-  path: Assets/Resources/Shield
-  artifactKey: Guid(10f65df0e2207104cb3e59b35aa1179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Shield using Guid(10f65df0e2207104cb3e59b35aa1179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eb52013aa610a616d52fd7b768cc11') in 0.007374 seconds 
+  Time since last request: 8.190617 seconds.
+  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
+  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2c2984feac66c51f638dd598f25f92') in 0.018967 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008814 seconds.
+Begin MonoManager ReloadAssembly
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:60)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 60)
+
+<WakaTime> Sending heartbeat...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:SendHeartbeat (bool) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:128)
+WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:62)
+WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2194ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1961ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (1269ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"34fb3d72-a937-47f7-a763-7a3d0dcab351"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
+
+<WakaTime> Sent heartbeat!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
+
+Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6075.
+Memory consumption went from 216.5 MB to 215.5 MB.
+Total: 26.728700 ms (FindLiveObjects: 0.556100 ms CreateObjectMapping: 0.385400 ms MarkObjects: 25.482000 ms  DeleteObjects: 0.303900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 198.681632 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png
-  artifactKey: Guid(9c6df97ed7064654ea974c842c85ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Blue.png using Guid(9c6df97ed7064654ea974c842c85ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d30f554794ae792b8e31e7015f34f73') in 0.020290 seconds 
+  Time since last request: 29.021620 seconds.
+  path: Assets/LearnShaderGraph/forcefield.shadergraph
+  artifactKey: Guid(0c861eb5bfa5c1f48a43ab38286b3017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LearnShaderGraph/forcefield.shadergraph using Guid(0c861eb5bfa5c1f48a43ab38286b3017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca47d957265527e3a577336abeb118') in 0.024709 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png
-  artifactKey: Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png using Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24b4a62e0a2c0ed29d00a9590f90375') in 0.049393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png
-  artifactKey: Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png using Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1009d48689fa4d00b6b2e054d571b54') in 0.031273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
-  artifactKey: Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png using Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc0364033de397a075ae5d26ffa8032') in 0.027420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png
-  artifactKey: Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png using Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127cb05c1c537ac6db601399970cb335') in 0.027026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
-  artifactKey: Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png using Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdcb1720764ce532d95fee1702f8d60') in 0.022097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png
-  artifactKey: Guid(98a18c0634080da40a446c86ad6083b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png using Guid(98a18c0634080da40a446c86ad6083b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67383df140d31b230fa3b6ad70f00724') in 0.018968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
-  artifactKey: Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png using Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae185e325434d2c090a4dab459a8d79') in 0.022323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UI/phaserGreen.png
-  artifactKey: Guid(4f25fda9e8bad244982612042c3cb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/phaserGreen.png using Guid(4f25fda9e8bad244982612042c3cb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db072645a53713183ede845a6951fe21') in 0.058852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/UI/blastersGreen.png
-  artifactKey: Guid(10c2990c93ac5d5479c03d51e8c97ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/blastersGreen.png using Guid(10c2990c93ac5d5479c03d51e8c97ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41957a01f96eea8728918d3a8f27f573') in 0.041801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/GalaxyFire/Textures/down_galaxyfire.tif
-  artifactKey: Guid(03557cb833a29514e809fe3121c3b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GalaxyFire/Textures/down_galaxyfire.tif using Guid(03557cb833a29514e809fe3121c3b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65d2d0869dba0dee59e3ccdb175bde3') in 0.023916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
-  artifactKey: Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png using Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e205b1d3f5ac374ae0b00c381d3260') in 0.019699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI/emptySlot.png
-  artifactKey: Guid(666212cb4c1311449af25b9ffbe72eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/emptySlot.png using Guid(666212cb4c1311449af25b9ffbe72eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc756e6e341f4ae4d9ece8a2e14f42e') in 0.039039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
-  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9015f282722221bc0e4deba7fa129831') in 0.016282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GalaxyFire/Textures/left_galaxyfire.tif
-  artifactKey: Guid(34d6675f7f1177449a86d4df11c6bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GalaxyFire/Textures/left_galaxyfire.tif using Guid(34d6675f7f1177449a86d4df11c6bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdba55ad16f30da79b44a61607fc36fb') in 0.017655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UI/Phaser_01.png
-  artifactKey: Guid(cc465b43e1afdec4babb7355367a2418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Phaser_01.png using Guid(cc465b43e1afdec4babb7355367a2418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38b02c6218d17e74f055a028ae043d4') in 0.016990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
-  artifactKey: Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png using Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1270f9c296e3760b24a152a335b2f3db') in 0.018905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png
-  artifactKey: Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png using Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c383ebc9504b562b55e4d1b73a513a8') in 0.020724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
-  artifactKey: Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png using Guid(56788cf7355aae243a176c2002e84e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65243a924c0c62e4b65c3287215fca34') in 0.022092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI/phaserBlue.png
-  artifactKey: Guid(dcef4aba2dd35334ab59b520bac8ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/phaserBlue.png using Guid(dcef4aba2dd35334ab59b520bac8ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f15a7d1a4576a6060733c22bfec6715') in 0.043185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png
-  artifactKey: Guid(5712fdd066d766b498459de6a869ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Red.png using Guid(5712fdd066d766b498459de6a869ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbd227fea78ec95eae59669fadcc976') in 0.017637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.572889 seconds.
-  path: Assets/UI/PhaserIcon.png
-  artifactKey: Guid(97a52e30546c21a47b49a3efc3887ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/PhaserIcon.png using Guid(97a52e30546c21a47b49a3efc3887ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c52852ac22031bffa6c492e42ed8613') in 0.036548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI/Refit_Constitution_class_navigational_deflector.jpg
-  artifactKey: Guid(851d5c103f36c2f43900bc2cf68f8d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Refit_Constitution_class_navigational_deflector.jpg using Guid(851d5c103f36c2f43900bc2cf68f8d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e20682c98b0654f0f5126c460e1ae') in 0.021814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/GalaxyFire/Textures/right_galaxyfire.tif
-  artifactKey: Guid(e85bb475092c7bc40aa16839048d5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GalaxyFire/Textures/right_galaxyfire.tif using Guid(e85bb475092c7bc40aa16839048d5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb6e97c26d00df71397a3e25aee96aa') in 0.021027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
+  Time since last request: 53.107024 seconds.
   path: Assets/StarSparrow/Textures/StarSparrow_Black.png
   artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6cd4b10b04f9618b44fd8448ca710') in 0.023872 seconds 
+Start importing Assets/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e777ed3a1ec82790e132176518b40231') in 0.082892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Blue.png
-  artifactKey: Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Blue.png using Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b9b100edf3be6f7ede55d73c0d9d72') in 0.021518 seconds 
+  Time since last request: 1.473085 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
+  artifactKey: Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d0f1146bc08d8d969ae5b18810f3b') in 0.028318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Materials/sparkle.png
-  artifactKey: Guid(bdceceacd3c5fbc45a2e68103434f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/sparkle.png using Guid(bdceceacd3c5fbc45a2e68103434f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56669593f8f299b7c3099d29512fa164') in 0.025397 seconds 
+  Time since last request: 0.029082 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Green.png
+  artifactKey: Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Green.png using Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ade350da75b85dad79e5cb5c658e7') in 0.015047 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.869561 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Emission.png
-  artifactKey: Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Emission.png using Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa6f448f6935d808a93a7c0fdb63513') in 0.017604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
+  Time since last request: 0.261351 seconds.
   path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
   artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c6efb59908f35bd78961530be7f159') in 0.019949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png
-  artifactKey: Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask2.png using Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329c5967bd4593727d29e8b56cffbe71') in 0.019435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2fb18c85f5f15330d941d2daac5f27') in 0.024338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011608 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
-  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30613a9e55a70046d4e2711dea9880db') in 0.019736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
-  artifactKey: Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba326b73ded861d5b31f5d52323dece') in 0.020081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Orange.png
-  artifactKey: Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Orange.png using Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69edefed12c36db6082e1f418d66f7b') in 0.016792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
-  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02375a0c10500868da91ec1e134fd7df') in 0.017551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.726047 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png
-  artifactKey: Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png using Guid(b617caa5ef54773409f566190c82a16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844db68a8121fedac55f4447f5754158') in 0.019821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UI/TorpedoCobalt.png
-  artifactKey: Guid(92bd4d3917dd2294ab2f924dc3ced76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/TorpedoCobalt.png using Guid(92bd4d3917dd2294ab2f924dc3ced76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a52460a3ed6374889113ee37acb7ccf') in 0.035633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI/warpCore.png
-  artifactKey: Guid(57e52b8b720ab454eaaae60379a91b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/warpCore.png using Guid(57e52b8b720ab454eaaae60379a91b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c179241329b41ae296d0b8f6545692d') in 0.039664 seconds 
+Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d088db5a2e893492b1db281a85013') in 0.029000 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/UI/TorpedoPlasma.png
-  artifactKey: Guid(5a315e8ba2a189d4189b704aa1cf5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/TorpedoPlasma.png using Guid(5a315e8ba2a189d4189b704aa1cf5b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b1d6b29ce24c429378283caf840671') in 0.038329 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
+  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e5aa7b529e92e08168b9fae0c41471') in 0.020464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221448 seconds.
+  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
+  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5496b4461769ee6ea062b666d3598e') in 0.029213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Purple.png
+  artifactKey: Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Purple.png using Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a4f7cd17d55fa9be60b1f29440dfc') in 0.019813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007526 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
+  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0afbdb1d158e32922774874ed998e') in 0.014119 seconds 

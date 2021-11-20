@@ -38,6 +38,8 @@ public class SpawnShieldImpact : MonoBehaviour
 
             
             shieldImpactVFX.SetVector3("SphereCenter", collision.contacts[0].point);
+
+            Destroy(impact, 2);
         }
     }
 }
