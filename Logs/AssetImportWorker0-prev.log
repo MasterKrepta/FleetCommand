@@ -15,7 +15,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63125
+52819
 Successfully changed project path to: C:/Users/brian/Documents/Unity/FleetCommand
 C:/Users/brian/Documents/Unity/FleetCommand
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 94.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,50 +63,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006757 seconds.
+Registered in 0.005724 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
+- Completed reload, in  0.505 seconds
 Domain Reload Profiling:
-	ReloadAssembly (603ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (505ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (463ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010802 seconds.
+Registered in 0.009200 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -134,295 +134,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.908 seconds
+- Completed reload, in  2.405 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2909ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (2406ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (2663ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2202ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (2141ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (1836ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-<WakaTime> Got response
-{"data":{"id":"31bb52b9-4630-472c-ba53-f8d3df433e45"}}
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
-
-<WakaTime> Sent heartbeat!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
-
-Unloading 5443 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5940.
-Memory consumption went from 214.3 MB to 212.9 MB.
-Total: 25.360900 ms (FindLiveObjects: 0.440500 ms CreateObjectMapping: 0.398700 ms MarkObjects: 23.944800 ms  DeleteObjects: 0.575500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9799.087360 seconds.
-  path: Assets/Models/Shield/ShieldShader.shadergraph
-  artifactKey: Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/ShieldShader.shadergraph using Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f1f75d9edff1f8da8ffb274052c83b') in 0.040078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/vfx_Shield Impact.prefab
-  artifactKey: Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/vfx_Shield Impact.prefab using Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431857f2d5eb3d5ed57e59e05d1aa2ef') in 0.201409 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008804 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-<WakaTime> Initializing...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:60)
-WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 60)
-
-<WakaTime> Sending heartbeat...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin:SendHeartbeat (bool) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:128)
-WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:62)
-WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.195 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2196ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1967ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (1286ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-<WakaTime> Got response
-{"data":{"id":"a97e575d-69b5-4ab7-9818-c9d5ac951bb6"}}
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
-
-<WakaTime> Sent heartbeat!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
-
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 6002.
-Memory consumption went from 217.1 MB to 216.0 MB.
-Total: 24.228300 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.423500 ms MarkObjects: 23.123400 ms  DeleteObjects: 0.258400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 24.235307 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe12ccbc99bf90132fb13c8b2e32346e') in 0.183797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.190617 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2c2984feac66c51f638dd598f25f92') in 0.018967 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008814 seconds.
-Begin MonoManager ReloadAssembly
-A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-<WakaTime> Initializing...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:60)
-WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 60)
-
-<WakaTime> Sending heartbeat...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin:SendHeartbeat (bool) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:128)
-WakaTime.Plugin:Initialize () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:62)
-WakaTime.Plugin:.cctor () (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:34)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.194 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2194ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1961ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (3ms)
 			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1434ms)
+			SetupLoadedEditorAssemblies (1778ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (1269ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (1521ms)
 				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-<WakaTime> Got response
-{"data":{"id":"34fb3d72-a937-47f7-a763-7a3d0dcab351"}}
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:157)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 157)
-
-<WakaTime> Sent heartbeat!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs:173)
-UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-
-(Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
-
-Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6075.
-Memory consumption went from 216.5 MB to 215.5 MB.
-Total: 26.728700 ms (FindLiveObjects: 0.556100 ms CreateObjectMapping: 0.385400 ms MarkObjects: 25.482000 ms  DeleteObjects: 0.303900 ms)
+Unloading 5445 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.5 MB). Loaded Objects now: 5942.
+Memory consumption went from 216.0 MB to 214.6 MB.
+Total: 22.489300 ms (FindLiveObjects: 0.445800 ms CreateObjectMapping: 0.196800 ms MarkObjects: 21.431800 ms  DeleteObjects: 0.413500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -437,55 +185,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.021620 seconds.
-  path: Assets/LearnShaderGraph/forcefield.shadergraph
-  artifactKey: Guid(0c861eb5bfa5c1f48a43ab38286b3017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LearnShaderGraph/forcefield.shadergraph using Guid(0c861eb5bfa5c1f48a43ab38286b3017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca47d957265527e3a577336abeb118') in 0.024709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.107024 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Black.png
-  artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e777ed3a1ec82790e132176518b40231') in 0.082892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.473085 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
-  artifactKey: Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d0f1146bc08d8d969ae5b18810f3b') in 0.028318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029082 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Green.png
-  artifactKey: Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Green.png using Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ade350da75b85dad79e5cb5c658e7') in 0.015047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.261351 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
-  artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d088db5a2e893492b1db281a85013') in 0.029000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e5aa7b529e92e08168b9fae0c41471') in 0.020464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.221448 seconds.
-  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
-  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5496b4461769ee6ea062b666d3598e') in 0.029213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Purple.png
-  artifactKey: Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Purple.png using Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a4f7cd17d55fa9be60b1f29440dfc') in 0.019813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007526 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
-  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0afbdb1d158e32922774874ed998e') in 0.014119 seconds 
+  Time since last request: 49148.310328 seconds.
+  path: Assets/Models/vfx_Shield.prefab
+  artifactKey: Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/vfx_Shield.prefab using Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d96bc2e0682bcf68b41eaf0a4faadf2') in 0.202450 seconds 

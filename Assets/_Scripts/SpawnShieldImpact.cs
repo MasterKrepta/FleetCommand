@@ -11,23 +11,6 @@ public class SpawnShieldImpact : MonoBehaviour
     VisualEffect shieldImpactVFX;
 
 
-    
-    private void OnTriggerEnter(Collider other)
-    {
-        print(other.gameObject.name);
-        if (other.gameObject.tag == "Weapon")
-        {
-            Vector3 contactPoint = other.ClosestPoint(other.gameObject.transform.position);
-            Destroy(other.gameObject);
-            var impact = Instantiate(shieldImpact, transform) as GameObject;
-            shieldImpactVFX = impact.GetComponent<VisualEffect>();
-            
-            //TODO fix this referance its probobly spelled wrong
-            shieldImpactVFX.SetVector3("SphereCenter", contactPoint);
-
-            Destroy(impact, 2);
-        }
-    }
 
     private void OnCollisionEnter(Collision collision)
     {

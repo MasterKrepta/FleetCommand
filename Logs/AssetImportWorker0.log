@@ -15,7 +15,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49614
+52897
 Successfully changed project path to: C:/Users/brian/Documents/Unity/FleetCommand
 C:/Users/brian/Documents/Unity/FleetCommand
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 89.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,50 +63,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006038 seconds.
+Registered in 0.006581 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (548ms)
+	ReloadAssembly (509ms)
 		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (422ms)
+		EndReloadAssembly (386ms)
 			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (80ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011543 seconds.
+Registered in 0.010511 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -134,41 +134,41 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.496 seconds
+- Completed reload, in  2.430 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2497ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (2430ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (2276ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (2222ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1825ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1801ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (1552ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (1538ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"774973dd-1b7b-43da-9e7e-be53c4a185ce"}}
+{"data":{"id":"f182c298-796d-4c49-be64-f5eab1b2bd12"}}
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -188,10 +188,10 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent ()
 
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
 
-Unloading 5443 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5940.
-Memory consumption went from 214.0 MB to 212.6 MB.
-Total: 22.991800 ms (FindLiveObjects: 0.563200 ms CreateObjectMapping: 0.175500 ms MarkObjects: 21.639600 ms  DeleteObjects: 0.611600 ms)
+Unloading 5444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5941.
+Memory consumption went from 215.1 MB to 213.7 MB.
+Total: 22.168400 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.154600 ms MarkObjects: 21.176300 ms  DeleteObjects: 0.425500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -206,31 +206,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10003.598956 seconds.
-  path: Assets/Prefabs/slotIcon.prefab
-  artifactKey: Guid(6e26948baee549f48aa001ead44a5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/slotIcon.prefab using Guid(6e26948baee549f48aa001ead44a5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da91b03da00a09b1a36b202a261f9234') in 0.050584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/Shield/shieldWorking.blend
-  artifactKey: Guid(71db7170d43f71041b55c0704cb46873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/shieldWorking.blend using Guid(71db7170d43f71041b55c0704cb46873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eed7cad8b15afe8163b901427495a16') in 0.239611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.581790 seconds.
-  path: Assets/Models/vfx_Shield.prefab
-  artifactKey: Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/vfx_Shield.prefab using Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04b6682313f8d6db05f27a69cdb6b5') in 0.033787 seconds 
+  Time since last request: 49378.153484 seconds.
+  path: Assets/Models/Shield/vfx_ShieldImpact.prefab
+  artifactKey: Guid(0157ea01f30b1a24c86158f807e7b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_ShieldImpact.prefab using Guid(0157ea01f30b1a24c86158f807e7b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e75d0110b26cebcff7be04df5dcda5') in 0.214329 seconds 
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009989 seconds.
+Registered in 0.008804 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -258,38 +247,38 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.129 seconds
+- Completed reload, in  2.150 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2130ms)
+	ReloadAssembly (2150ms)
 		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1901ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (1923ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1414ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1417ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (1241ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (1253ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"2999ad88-85e2-48c9-a4e3-aeefe12730c9"}}
+{"data":{"id":"6e148139-5b14-43e7-abb9-0681a09509a6"}}
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -310,9 +299,9 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent ()
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
 
 Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6038.
-Memory consumption went from 217.0 MB to 215.9 MB.
-Total: 24.805500 ms (FindLiveObjects: 0.464000 ms CreateObjectMapping: 0.252200 ms MarkObjects: 23.863400 ms  DeleteObjects: 0.225000 ms)
+Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 6003.
+Memory consumption went from 217.6 MB to 216.6 MB.
+Total: 23.845900 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.379600 ms MarkObjects: 22.750900 ms  DeleteObjects: 0.222000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -327,38 +316,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.235586 seconds.
-  path: Assets/Models/Shield/Icosphere.kra
-  artifactKey: Guid(fd2a7e822ef34504ea724daecf849f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/Icosphere.kra using Guid(fd2a7e822ef34504ea724daecf849f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bb96779937ac8ae7f3318c774aad7') in 0.037131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.459230 seconds.
+  Time since last request: 29.574540 seconds.
   path: Assets/Models/Shield/vfx_ShieldImpact.vfx
   artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17b8e999bb2a6f64a39be8760c7cb24') in 1.157997 seconds 
+Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a8ace8282158888c44fa31768b9ae7') in 0.174986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.150057 seconds.
+  Time since last request: 54.161225 seconds.
   path: Assets/Models/Shield/vfx_ShieldImpact.vfx
   artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bad0eb778b2ddb589b024cb8ae4663') in 0.013053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.138865 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99c17f982e7b1c2e8ad8fe24deaacc') in 0.013182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.189762 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1653ea98161c15ff7e2c5a71095171e7') in 0.950013 seconds 
+Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84afe01b4f1c2669d20cf530667f3929') in 0.981292 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008910 seconds.
+Registered in 0.012641 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -391,38 +362,38 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.108 seconds
+- Completed reload, in  2.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2109ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (2141ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1888ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1922ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1400ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1460ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (1235ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (1299ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"88b2205b-456b-4d63-8419-2bf8744245d0"}}
+{"data":{"id":"76fc4a16-6d45-41fd-887e-9169a33fa942"}}
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -443,9 +414,9 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent ()
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
 
 Unloading 5351 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6079.
-Memory consumption went from 217.2 MB to 216.1 MB.
-Total: 24.976900 ms (FindLiveObjects: 0.550000 ms CreateObjectMapping: 0.659300 ms MarkObjects: 23.487500 ms  DeleteObjects: 0.278700 ms)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6077.
+Memory consumption went from 218.2 MB to 217.2 MB.
+Total: 23.530600 ms (FindLiveObjects: 0.472300 ms CreateObjectMapping: 0.318800 ms MarkObjects: 22.497000 ms  DeleteObjects: 0.241300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -460,25 +431,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.730280 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f91251eb8956530ee57ed1122d931') in 0.188069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.100122 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f9d3ea5562ab4e4b810034c94735a') in 0.010150 seconds 
+  Time since last request: 53.097000 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1381f0e35c1b89c57b37ac3c473fbe') in 1.084566 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008908 seconds.
+Registered in 0.008627 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -506,38 +471,38 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.170 seconds
+- Completed reload, in  2.126 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2170ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (2127ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1952ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1907ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1453ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1414ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (1285ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (1248ms)
 				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"236f68f1-60c8-4228-bda3-36172e7f6348"}}
+{"data":{"id":"d1723217-a1a2-45d1-aa3a-4b48ae8484d3"}}
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -557,10 +522,10 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent ()
 
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
 
-Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6119.
-Memory consumption went from 217.6 MB to 216.5 MB.
-Total: 25.195300 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.252700 ms MarkObjects: 24.096200 ms  DeleteObjects: 0.288300 ms)
+Unloading 5351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6118.
+Memory consumption went from 219.0 MB to 217.9 MB.
+Total: 24.314700 ms (FindLiveObjects: 0.553400 ms CreateObjectMapping: 0.304000 ms MarkObjects: 23.219100 ms  DeleteObjects: 0.236900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -575,25 +540,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 329.353207 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579942504ee74686f187291620d5c866') in 0.180277 seconds 
+  Time since last request: 28.304136 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8129aa2c319018843d78c23f61fd73') in 0.156222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.824734 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019ddd325c494c008395123b9762278') in 0.010354 seconds 
+  Time since last request: 11.108119 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6750d5b953ff6fc57aea9665cc9e05') in 0.010193 seconds 
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+========================================================================
+Received Import Request.
+  Time since last request: 120.154073 seconds.
+  path: Assets/Models/Shield/test.vfx
+  artifactKey: Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/test.vfx using Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d09de7502639f479fb421c70a34137f') in 0.037944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.277040 seconds.
+  path: Assets/Models/Shield/test.vfx
+  artifactKey: Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/test.vfx using Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8e5f37b5c2294e2d0eefdff4ac7905') in 0.022180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.659549 seconds.
+  path: Assets/Models/Shield/test.vfx
+  artifactKey: Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/test.vfx using Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e2186130ab8cffae8b50f8a26b9b88') in 0.023337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.374220 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ed9b77ef1b04cd6ba56e4daa6cab1e') in 0.009605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.151547 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653929bf630431f95d078699b31a2c20') in 0.002163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204019 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a515c9b4e8d08678cf909e384488d3') in 0.002126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998947 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c896d69dbee70b3319010eba76ea7c8d') in 0.009925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.045616 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a724ac9a6cdfae8515817814e36ae88a') in 0.008971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.309307 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41597fdbd92ea286a9fdfc49e6b71662') in 0.009564 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008951 seconds.
+Registered in 0.008598 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -621,38 +641,38 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 128)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.100 seconds
+- Completed reload, in  2.108 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2101ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (2108ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1886ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1891ms)
 			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1400ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1397ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (1238ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (1231ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"f76fd507-fc7c-43c1-8985-6f7b95acc4c1"}}
+{"data":{"id":"df36d0f8-46a9-4277-a5ab-ea2baaa3e77e"}}
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -672,10 +692,10 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent ()
 
 (Filename: Library/PackageCache/com.vladfaust.unitywakatime@4dedbeac2e/Editor/Plugin.cs Line: 173)
 
-Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5351 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 6159.
-Memory consumption went from 217.2 MB to 216.1 MB.
-Total: 24.701900 ms (FindLiveObjects: 0.521800 ms CreateObjectMapping: 0.280100 ms MarkObjects: 23.624200 ms  DeleteObjects: 0.274600 ms)
+Memory consumption went from 219.8 MB to 218.7 MB.
+Total: 26.938700 ms (FindLiveObjects: 0.495900 ms CreateObjectMapping: 0.224800 ms MarkObjects: 26.007000 ms  DeleteObjects: 0.209400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -688,121 +708,1294 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
 ========================================================================
 Received Import Request.
-  Time since last request: 57.612652 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce253ef993f2fc2cf539bf2ce3f9694d') in 0.187364 seconds 
+  Time since last request: 40.375850 seconds.
+  path: Assets/Models/Shield/test.vfx
+  artifactKey: Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/test.vfx using Guid(8cc70adc11d3bd8419215156b5161c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bebf3f8fc75d0b382761f2cfa2ace8b') in 0.162169 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.476377 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8baad38358a46a2d7985ed2b5531da7') in 0.009826 seconds 
+  Time since last request: 27.829929 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec310adaba70b67ccb92128d25212d91') in 0.033629 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.896921 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf9074ee9848c2d8cb40719ab7a4a76') in 0.009688 seconds 
+  Time since last request: 9.053124 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b666779664a842d55d470dd9b848895c') in 0.011251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.283834 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89537034c4eb0cf9032a1151f56aa8d') in 0.011458 seconds 
+  Time since last request: 3.684097 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209e17e78ea2f62090c10ac36952c837') in 0.010330 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.744622 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a55e408375750f06ae13e993fd41eb1') in 0.017926 seconds 
+  Time since last request: 3.671430 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9dc6f140c78f16a0b0ea2fb9dae818') in 0.012217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.935587 seconds.
-  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
-  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16af871f6ea4f19580ec86289f1b19d8') in 0.010808 seconds 
+  Time since last request: 42.874351 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a67993977727ad46448f55a6aabf43') in 0.015353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 189.359583 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.shadergraph
-  artifactKey: Guid(58e12c46f35dcf74a806fe21c06c721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.shadergraph using Guid(58e12c46f35dcf74a806fe21c06c721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed28d3bd22c9c187c7d0e2e5f72e488d') in 0.009475 seconds 
+  Time since last request: 7.259450 seconds.
+  path: Assets/Models/Shield/TestShield.vfx
+  artifactKey: Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/TestShield.vfx using Guid(65223c4b7ebdbbc488db8de07cfaed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4989d39ed94304bbafc08457f0b3c0') in 0.021188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.484596 seconds.
-  path: Assets/Models/Shield/vfxShieldHitShader.shadergraph
-  artifactKey: Guid(58e12c46f35dcf74a806fe21c06c721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHitShader.shadergraph using Guid(58e12c46f35dcf74a806fe21c06c721a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290d51ae29fe9d1fd59f91dcda388933') in 0.005827 seconds 
+  Time since last request: 32.424491 seconds.
+  path: Assets/Models/Shield/ShieldShader.shadergraph
+  artifactKey: Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/ShieldShader.shadergraph using Guid(43717956197b80a44b9aed9a66311a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a48dee90a4157ca3e20682f128d4fc2') in 0.006505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.205391 seconds.
+  Time since last request: 5.230177 seconds.
+  path: Assets/Models/Shield/ShieldHit.prefab
+  artifactKey: Guid(9c62d370abeeada42acfbb65d85afbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/ShieldHit.prefab using Guid(9c62d370abeeada42acfbb65d85afbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e371c42a8a54c7b0f21416da6fa6bb07') in 0.023623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.085872 seconds.
   path: Assets/Models/Shield/vfxShieldHit.vfx
   artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8acddbd8efaec3e14ebe18556649a') in 1.110585 seconds 
+Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a84bcf482db545ad9b2343e854773f') in 0.015360 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.559883 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f0635b424ccd2b0b3f445d586fed6e') in 0.021905 seconds 
+  Time since last request: 0.468276 seconds.
+  path: Assets/Models/vfx_Shield.prefab
+  artifactKey: Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/vfx_Shield.prefab using Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2118c91b014d93be69547c41f680d0') in 0.017880 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.248572 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea39771937ad80f6f0706a6aec6138d5') in 1.151755 seconds 
+  Time since last request: 51.973180 seconds.
+  path: Assets/Models/Shield/Shader Graphs_ShieldShader.mat
+  artifactKey: Guid(212b79f5d5b070d4b851225332cafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/Shader Graphs_ShieldShader.mat using Guid(212b79f5d5b070d4b851225332cafdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3885c75e088fe3b87482c8a9ebc316c1') in 0.020114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.054337 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b18a98e5c692296ae724ae0d40c4e46') in 0.012467 seconds 
+  Time since last request: 0.002159 seconds.
+  path: Assets/Models/Shield/ShieldMat.mat
+  artifactKey: Guid(baba52ae21f01cf43aa1c5eaa8b07586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/ShieldMat.mat using Guid(baba52ae21f01cf43aa1c5eaa8b07586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1732a361b5652e6c845c5ac889dd001b') in 0.022075 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.163697 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3ac7e4604062a7c174c0b6b069cf93') in 0.012883 seconds 
+  Time since last request: 0.023849 seconds.
+  path: Assets/Models/Shield/vfx_ShieldImpact.prefab
+  artifactKey: Guid(0157ea01f30b1a24c86158f807e7b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shield/vfx_ShieldImpact.prefab using Guid(0157ea01f30b1a24c86158f807e7b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb389c6f8884cce3e54b68cce5d8c96') in 0.016724 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.180734 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b9be833ed0898d9ac3e9cfc6222e52') in 0.012697 seconds 
+  Time since last request: 3.989647 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(e4215e863b2de314d8aa5576336b38cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/New Lighting Settings.lighting using Guid(e4215e863b2de314d8aa5576336b38cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b865fef2479a8cf8c91d3697b2bc7054') in 0.135699 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.258242 seconds.
-  path: Assets/Models/Shield/vfxShieldHit.vfx
-  artifactKey: Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/vfxShieldHit.vfx using Guid(c4a37b1b71f6da2449dc76171ede300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef7d2adda6d089520e88fbf8adc7b5a') in 1.087241 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(0c43574854c543844a8a465ace0c206e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(0c43574854c543844a8a465ace0c206e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2071af1f96f0e20ae4b200372090182b') in 0.007652 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.590725 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DecorativeLight.png
-  artifactKey: Guid(1e2ae1a12a2a1ff498cab6444b9cd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/DecorativeLight.png using Guid(1e2ae1a12a2a1ff498cab6444b9cd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15171950d1f0dd15f1e3e5dff112fbda') in 0.030419 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/LearnShaderGraph/regular.mat
+  artifactKey: Guid(19087406520e7ed499dde6b6eb06a866) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LearnShaderGraph/regular.mat using Guid(19087406520e7ed499dde6b6eb06a866) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b07141f313076a57a70c88974ea8863') in 0.009988 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png
-  artifactKey: Guid(a7d900a247e707e45a257328c3ee381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png using Guid(a7d900a247e707e45a257328c3ee381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b389106533539a8424ebc5d3c5a4c5d') in 0.014298 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/slotIcon.prefab
+  artifactKey: Guid(6e26948baee549f48aa001ead44a5680) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/slotIcon.prefab using Guid(6e26948baee549f48aa001ead44a5680) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e220c4bf3d6115ca5838ca0b723bfa8f') in 0.015941 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark.png
-  artifactKey: Guid(ce3ca6a541b5fbc4c80edb5195d78731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark.png using Guid(ce3ca6a541b5fbc4c80edb5195d78731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e537b7647f882b33ba4a9e8b9543366') in 0.014964 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/ShieldTest2.unity
+  artifactKey: Guid(2bbb065af9d805245965ada4c23f0055) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/ShieldTest2.unity using Guid(2bbb065af9d805245965ada4c23f0055) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '806a89304c978bb0efa333be45455437') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Blue.mat
+  artifactKey: Guid(69d393aa2d52fd34f80a48e88145a81c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Blue.mat using Guid(69d393aa2d52fd34f80a48e88145a81c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7be1eb20591d7a6a2ed26e796985ba9') in 0.011294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Editor/FOVEditor.cs
+  artifactKey: Guid(e2651b40c082b5c47b4bb64fbe1601f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Editor/FOVEditor.cs using Guid(e2651b40c082b5c47b4bb64fbe1601f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c138d8c97457a1d393777ef8e4d338e') in 0.008938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/ShipTargeting.png
+  artifactKey: Guid(476b102499c1a9d42a78227bc14eff3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/ShipTargeting.png using Guid(476b102499c1a9d42a78227bc14eff3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '455964d8fe0665d98e516ce367d17dff') in 0.019097 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga
-  artifactKey: Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga using Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead014072320add268196c7550b6b2aa') in 0.017478 seconds 
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(8f83ab70d9392114aba52c24a490d837) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/New Material.mat using Guid(8f83ab70d9392114aba52c24a490d837) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6e4bab5470e68ef2be9ce5e3bcd8d12') in 0.010526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Shield/Shader Graphs_ShieldShader.mat
+  artifactKey: Guid(212b79f5d5b070d4b851225332cafdc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/Shader Graphs_ShieldShader.mat using Guid(212b79f5d5b070d4b851225332cafdc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad31b39e874ff2e8cbc7d7efdb58bfd2') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Scripts/SpawnShieldImpact.cs
+  artifactKey: Guid(57cf42f162d65e743b7ce72bef239592) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/SpawnShieldImpact.cs using Guid(57cf42f162d65e743b7ce72bef239592) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0461b95c4d08cada9df057a14e56548b') in 0.006100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GalaxyFire/Material/GalaxyFireMaterial.mat
+  artifactKey: Guid(69e10e886d52d20478f9ed5424126be8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Material/GalaxyFireMaterial.mat using Guid(69e10e886d52d20478f9ed5424126be8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e98c6fe1e567447f443b0e632e73a531') in 0.007348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/vfx_Shield.prefab
+  artifactKey: Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/vfx_Shield.prefab using Guid(61785fd906ea7df45b5bc1ec0ce683f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d71ea189141c7883f4464c7c26e3634') in 0.008869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GalaxyFire/Textures/left_galaxyfire.tif
+  artifactKey: Guid(34d6675f7f1177449a86d4df11c6bf49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Textures/left_galaxyfire.tif using Guid(34d6675f7f1177449a86d4df11c6bf49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9e1800b4101a041ebb41fbb6c492c34') in 0.012116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Scripts/MoveTowardsTarget.cs
+  artifactKey: Guid(758ea67468129494c9788219d1ffbb92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/MoveTowardsTarget.cs using Guid(758ea67468129494c9788219d1ffbb92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b655ee9ea1d145a3e08f1f9708d807e') in 0.006367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Shield/Icosphere.kra
+  artifactKey: Guid(fd2a7e822ef34504ea724daecf849f68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/Icosphere.kra using Guid(fd2a7e822ef34504ea724daecf849f68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10c444b7a79af3ead4368cbc27253772') in 0.008633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/Phaser.png
+  artifactKey: Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Phaser.png using Guid(f1b7e2ea73cab17478ef0086e7f89e66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f1f8c6f62f3cbe92cd0c088d427e41d') in 0.008258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Scripts/Clickable.cs
+  artifactKey: Guid(b82c08120b9946d468e049c1c4778edb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Clickable.cs using Guid(b82c08120b9946d468e049c1c4778edb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edba42f5ec143e5a42ebe23832694b02') in 0.006256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor/ScriptableObjectUtility.cs
+  artifactKey: Guid(7fff24d7175614c4d92d37ce820f1555) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Editor/ScriptableObjectUtility.cs using Guid(7fff24d7175614c4d92d37ce820f1555) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dd9b934eca07345c2ee79a9be99870e') in 0.006811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/ShipTargeting.afphoto
+  artifactKey: Guid(b0b2ffd8d6b0b2d47a455fc87eb12d82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/ShipTargeting.afphoto using Guid(b0b2ffd8d6b0b2d47a455fc87eb12d82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8720ee99618a4dae8c3cde555e65e57e') in 0.007304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Shield/ShieldMat.mat
+  artifactKey: Guid(baba52ae21f01cf43aa1c5eaa8b07586) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/ShieldMat.mat using Guid(baba52ae21f01cf43aa1c5eaa8b07586) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b5a0163aaa308cbbf8f8a70a2589d9d') in 0.007235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Scripts/ShipSystem.cs
+  artifactKey: Guid(65ece0b404d468140a9c0bac3303d921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/ShipSystem.cs using Guid(65ece0b404d468140a9c0bac3303d921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8adf8305312cda7f9f1230958d859ccd') in 0.007103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/sparkle.png
+  artifactKey: Guid(bdceceacd3c5fbc45a2e68103434f8b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/sparkle.png using Guid(bdceceacd3c5fbc45a2e68103434f8b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53caa2f29362ec489c9e94bfd92a48cb') in 0.007082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Scripts/TargetComputer.cs
+  artifactKey: Guid(5827ac75c784b5840b9be9e41f024b33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/TargetComputer.cs using Guid(5827ac75c784b5840b9be9e41f024b33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3c654fcf418d442b718769f46b38817') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GalaxyFire/Galaxy Fire Skybox Readme.txt
+  artifactKey: Guid(469e99eb77f6842e7bad673f0d1215bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Galaxy Fire Skybox Readme.txt using Guid(469e99eb77f6842e7bad673f0d1215bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '030cc7c0b0346a16e3400fce6666623c') in 0.011875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Materials/PhaserShader.shadergraph
+  artifactKey: Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/PhaserShader.shadergraph using Guid(a7312f3ec7a0b7d4bbe9a070d412f369) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6ca1beef25ee59a9bb7f456677ecea2') in 0.009924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow3.fbx
+  artifactKey: Guid(b3f31988fa57e6448857f14a9607ca49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow3.fbx using Guid(b3f31988fa57e6448857f14a9607ca49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04538d357e857d572ec881de30bace18') in 0.013163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Black.png
+  artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b88d3dd91f8cbb7d1c5582b6cb31019') in 0.011909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow20.fbx
+  artifactKey: Guid(2aa3be39e3a89da4ea9381a79b1d3c8a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow20.fbx using Guid(2aa3be39e3a89da4ea9381a79b1d3c8a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '530f9ffac947bc46a3ebe82f9639d11b') in 0.009420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Normal.png
+  artifactKey: Guid(c96423a02cfe8934286c58b144ca7a43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Normal.png using Guid(c96423a02cfe8934286c58b144ca7a43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9de9e0603660c435363c1cc287d1fb5f') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow10.fbx
+  artifactKey: Guid(d32d4a735694a9f4f97a42117a1f919c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow10.fbx using Guid(d32d4a735694a9f4f97a42117a1f919c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca937e6f398fac8438fe33b3bdb99880') in 0.007828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow19.fbx
+  artifactKey: Guid(0c96b086dbd8f5647806bfb7ee9b928a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow19.fbx using Guid(0c96b086dbd8f5647806bfb7ee9b928a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5c729e684ff2bfc3e8c4cd3ee6da467') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow4.fbx
+  artifactKey: Guid(7434f156f1a25df4596be6564fe60b9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow4.fbx using Guid(7434f156f1a25df4596be6564fe60b9d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '324ca1ecc1c450e96d0f1a0e2547300c') in 0.007987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_White.png
+  artifactKey: Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_White.png using Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67f9f58c592080b575c695ff5ad107d') in 0.011561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow11.fbx
+  artifactKey: Guid(aaf7aa019f23a0940afebb1950259a1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow11.fbx using Guid(aaf7aa019f23a0940afebb1950259a1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d711316200c402bd5fc1bb795ffba0') in 0.008291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Shield/ShieldTexture.png
+  artifactKey: Guid(63bf7b90d9a66274c8f3354ff123a147) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/ShieldTexture.png using Guid(63bf7b90d9a66274c8f3354ff123a147) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22fdef3cf86c775625e7ea0e23820a83') in 0.008522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/TorpedoCobalt.png
+  artifactKey: Guid(92bd4d3917dd2294ab2f924dc3ced76b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/TorpedoCobalt.png using Guid(92bd4d3917dd2294ab2f924dc3ced76b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '148e3ace464b0fcdc40c22031e63b6a6') in 0.011485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Weapons/TorpedoLauncher.prefab
+  artifactKey: Guid(5d2a4bbcd9e4d0d408dc0b610ccccccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Weapons/TorpedoLauncher.prefab using Guid(5d2a4bbcd9e4d0d408dc0b610ccccccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '580cf305847b581c8e31354b58a2eee9') in 0.010507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow9.fbx
+  artifactKey: Guid(c5854ef2d6dd2ab4ba6f56c2053676c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow9.fbx using Guid(c5854ef2d6dd2ab4ba6f56c2053676c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13f212b4fbefdb5822bfcb281e6460ed') in 0.008087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/phaserBlue.png
+  artifactKey: Guid(dcef4aba2dd35334ab59b520bac8ac2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/phaserBlue.png using Guid(dcef4aba2dd35334ab59b520bac8ac2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c78fa5d6cdf7f28e6266f0accd6ced27') in 0.010990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/maskworking.afphoto
+  artifactKey: Guid(88d73b14fc9c176408d035011cff75c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/maskworking.afphoto using Guid(88d73b14fc9c176408d035011cff75c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67454719573b63f127ac53bf9b16f8e7') in 0.006259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow17.fbx
+  artifactKey: Guid(73d017596d90716449488a7d74c0b954) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow17.fbx using Guid(73d017596d90716449488a7d74c0b954) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9d6a315e258b81c7daec9e63686604c') in 0.008493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow8.fbx
+  artifactKey: Guid(15e01a88075383240a48bc4527c69658) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow8.fbx using Guid(15e01a88075383240a48bc4527c69658) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44aff165922033f75a49010644829ad') in 0.008184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Grey.mat
+  artifactKey: Guid(12dffc4c817ab7e4294a82570ef30b58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Grey.mat using Guid(12dffc4c817ab7e4294a82570ef30b58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2efaa34f914c8b4ac10d082d4985e31c') in 0.011615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Scenes/StarSparrow.unity
+  artifactKey: Guid(7326b3c7d6f9f7e4a9b90a9cc4e9d928) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Scenes/StarSparrow.unity using Guid(7326b3c7d6f9f7e4a9b90a9cc4e9d928) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '573aff77298e74349fe7735ec3122dcb') in 0.006615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
+  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0fa34b3d3c94a71ef258e0920a3967a') in 0.009166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Shield/NewAudioMixer.mixer
+  artifactKey: Guid(9e935d04c8a9a2245854008137c643b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/NewAudioMixer.mixer using Guid(9e935d04c8a9a2245854008137c643b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2d3675798c5845b022554884204bb06') in 0.008399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow16.fbx
+  artifactKey: Guid(0913ee8c036b6dc468615920c91704e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow16.fbx using Guid(0913ee8c036b6dc468615920c91704e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1840bf80f5b89a9ae71ff9efa9f8778c') in 0.007577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GalaxyFire/Textures/right_galaxyfire.tif
+  artifactKey: Guid(e85bb475092c7bc40aa16839048d5339) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Textures/right_galaxyfire.tif using Guid(e85bb475092c7bc40aa16839048d5339) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c8ce42a5470f856599f9f52b2667911') in 0.007384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Scripts/Phaser.cs
+  artifactKey: Guid(4237afa29ea5b83429774887a7566a2e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Phaser.cs using Guid(4237afa29ea5b83429774887a7566a2e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a64b9e78186923f1bf15a4142c77d3b') in 0.006609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Scripts/UIStat.cs
+  artifactKey: Guid(da319740bd0da0b469440877ac43a431) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/UIStat.cs using Guid(da319740bd0da0b469440877ac43a431) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a084a36ff88009bb43b345a3cdf007c4') in 0.007302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TorpedoTexture.mat
+  artifactKey: Guid(a6cd7cae8add0a44094c51609eea5988) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/TorpedoTexture.mat using Guid(a6cd7cae8add0a44094c51609eea5988) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6f1d602380bb41b7718963c14cc74bc') in 0.008193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_White.mat
+  artifactKey: Guid(2bd34ca215750fc48902c734d2d5d80f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_White.mat using Guid(2bd34ca215750fc48902c734d2d5d80f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '346021c0ff8a7445a6dd88fe83598451') in 0.010868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Red.mat
+  artifactKey: Guid(14cc321f15ae44a4d8ead98d7550ee77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Red.mat using Guid(14cc321f15ae44a4d8ead98d7550ee77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f86abbea149d5bc5b1799687944f1c9') in 0.009884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GalaxyFire/Textures/front_galaxyfire.tif
+  artifactKey: Guid(f689d46fa2a6e254abad7c15b73c3f4a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Textures/front_galaxyfire.tif using Guid(f689d46fa2a6e254abad7c15b73c3f4a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3a86d5a86c8559650242fa1dc7fdc1a') in 0.008313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Materials/Beam.mat
+  artifactKey: Guid(6467c6042a5d81b45ae64de61aa26575) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/Beam.mat using Guid(6467c6042a5d81b45ae64de61aa26575) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff963020c6311644ef316ce2190a288') in 0.011823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow18.fbx
+  artifactKey: Guid(a9e1d66c337394b498df4fa2bc76d8d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow18.fbx using Guid(a9e1d66c337394b498df4fa2bc76d8d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5785fdf9afc37125c6f10785bb537853') in 0.009276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StarSparrow/Materials/phaserMask.png
+  artifactKey: Guid(46656fa65bdcdd247b64183a80de5629) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/phaserMask.png using Guid(46656fa65bdcdd247b64183a80de5629) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc1130fc7b1eb802667dcb4336949391') in 0.006862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX
+  artifactKey: Guid(6ed599d7224ee9943b11064add7ed981) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX using Guid(6ed599d7224ee9943b11064add7ed981) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce79317bc83455dbe9a358f20df8c95b') in 0.012819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Scripts/Utilities/ShipConfiguration.cs
+  artifactKey: Guid(0f799ede153e831488c7a4c58772d353) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/ShipConfiguration.cs using Guid(0f799ede153e831488c7a4c58772d353) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b71ee946f79d2c3375e9ba91fed67a86') in 0.006566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/AsteroidsSample.FBX
+  artifactKey: Guid(4514a249f7ca7d44b8eb4cbd48174504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/AsteroidsSample.FBX using Guid(4514a249f7ca7d44b8eb4cbd48174504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0403c5760f1a4ad8e8da176abac487b6') in 0.009306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX
+  artifactKey: Guid(b2359fd8578c87649ad70d6001527479) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX using Guid(b2359fd8578c87649ad70d6001527479) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8589b73b7b011dc0d722434ac0649f6') in 0.009482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Cyan.mat
+  artifactKey: Guid(d58bf68b17f9a4240aaeb5c200c9a12c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Cyan.mat using Guid(d58bf68b17f9a4240aaeb5c200c9a12c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0fd1eddd1acc7f44574883a65114502') in 0.009913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt
+  artifactKey: Guid(d46968e3b9dc1344ba33cc38fc7ad70b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/UpgradeHDRP/UpgradeHDRP.txt using Guid(d46968e3b9dc1344ba33cc38fc7ad70b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3fd4baf408f89a8fe633f16cc06921c') in 0.011143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/link.xml
+  artifactKey: Guid(1bec01331befdea4d9ed9033eabd68f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/link.xml using Guid(1bec01331befdea4d9ed9033eabd68f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc04a9d18c84a7c1485490d6fafda2c2') in 0.013477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.mdb
+  artifactKey: Guid(a4865f1ab4504ed8a368670db22f086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.mdb using Guid(a4865f1ab4504ed8a368670db22f086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0a33477d38e9669f26a87961c802365') in 0.008808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Scripts/Utilities/IShipSystem.cs
+  artifactKey: Guid(12533724dec7f0344b9094caac3b1236) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/IShipSystem.cs using Guid(12533724dec7f0344b9094caac3b1236) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca4744ea71e7d8c3e8d983ec90715dbd') in 0.006719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat
+  artifactKey: Guid(82c97815f01775d4899d78255a373dfe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/BonusContent/Mine Sample 1.mat using Guid(82c97815f01775d4899d78255a373dfe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '603824c45537d538ef4d3ff502930b5a') in 0.010540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Grey.mat
+  artifactKey: Guid(6b0bf81b9bf769c4cb75da722d4530a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/BonusContent/Grey.mat using Guid(6b0bf81b9bf769c4cb75da722d4530a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1eebfe91d1cff921c667c936ec3e4fd9') in 0.011782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Scripts/Utilities/Slot.cs
+  artifactKey: Guid(81cf0839ce319c0438b491702420bcac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/Slot.cs using Guid(81cf0839ce319c0438b491702420bcac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9a5b82d7c2660cc2c3a7fed41eb184b') in 0.006130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow7.fbx
+  artifactKey: Guid(741053bc327354845884391aa7b7bc7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow7.fbx using Guid(741053bc327354845884391aa7b7bc7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f4685e8cb9b342e12f4aceaf13eeb72') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(38a99ee548f875a43aae894c0c3181da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(38a99ee548f875a43aae894c0c3181da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d90e5bbe512bf23798970744513ce65') in 0.007644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/blastersGreen.png
+  artifactKey: Guid(10c2990c93ac5d5479c03d51e8c97ded) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/blastersGreen.png using Guid(10c2990c93ac5d5479c03d51e8c97ded) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04a5db81060bbbe5d90441e5d10d44c5') in 0.013048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Purple.mat
+  artifactKey: Guid(d215bd3bb42e9764da6cb4f2e19fe1fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Purple.mat using Guid(d215bd3bb42e9764da6cb4f2e19fe1fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e9462df2667b7d226ee14018b2b8c78') in 0.010669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Green.mat
+  artifactKey: Guid(ec39a84ad2f7de748af283edd7ffa3c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Green.mat using Guid(ec39a84ad2f7de748af283edd7ffa3c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a17135e0af19ba64cbb4dfc102d8da7') in 0.009981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat
+  artifactKey: Guid(020568ce6bb9b3245a24630d5282ca24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat using Guid(020568ce6bb9b3245a24630d5282ca24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4253168be7f4f1e72395507978f1c440') in 0.010445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat
+  artifactKey: Guid(816eca2bca813da4883bad3b376c4dbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Red.mat using Guid(816eca2bca813da4883bad3b376c4dbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b29c5b45097a9c0e04aa599454a29423') in 0.012844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Shield/vfx_Shield.vfx
+  artifactKey: Guid(53660e98eed558648a0a706842610bc8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/vfx_Shield.vfx using Guid(53660e98eed558648a0a706842610bc8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09fc1a8d7240b4d6269cb317b5f8ca89') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec22551dd9d6a3ad5bc5f7bdca83cdb2') in 0.006794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing4.FBX
+  artifactKey: Guid(bb401a4b2f241b54f904ccba8227557f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing4.FBX using Guid(bb401a4b2f241b54f904ccba8227557f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ce7746975e0c79156f10a670519ab69') in 0.007821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml
+  artifactKey: Guid(74721b9f0af448f5ae2e91102a1a096f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml using Guid(74721b9f0af448f5ae2e91102a1a096f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '547df901b4bea0f5b0bd9ded003952b6') in 0.012637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/Planet.FBX
+  artifactKey: Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/Planet.FBX using Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbbb8d8aa942c774085c4aa2c31f918c') in 0.008272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/vfx_Shield Impact.prefab
+  artifactKey: Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/vfx_Shield Impact.prefab using Guid(3dde6c0b924e8fa45bd7e670ebddc732) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42ce61f2eae9bee288a6f60ab04b50a1') in 0.007114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat
+  artifactKey: Guid(191ced9846689714398ed909c5e9284a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat using Guid(191ced9846689714398ed909c5e9284a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c9f88ef8ccb04b1369d04a3a42c64d') in 0.010822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.mdb
+  artifactKey: Guid(74721b9f0af448f5ae2e91102a1a086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.mdb using Guid(74721b9f0af448f5ae2e91102a1a086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b8646982231062ef46ff85883814dff') in 0.007552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll
+  artifactKey: Guid(a4865f1ab4504ed8a368670db22f409c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll using Guid(a4865f1ab4504ed8a368670db22f409c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '202ea744db7e05549473f24aab7059de') in 0.024104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Scripts/Utilities/EquipmentData.cs
+  artifactKey: Guid(b38141693a557a048b90063318ffd138) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/EquipmentData.cs using Guid(b38141693a557a048b90063318ffd138) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c528c61a3a00457b8f0a91c3ab70ae0b') in 0.006995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Scripts/Utilities/ShipObject.cs
+  artifactKey: Guid(2a8140ed855c67d478868aa9c88eae45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/ShipObject.cs using Guid(2a8140ed855c67d478868aa9c88eae45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23579897a81fdafd49d2dfa7975ee590') in 0.007138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
+  artifactKey: Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2487b09f7d4aa7bf15b833ea1e704e25') in 0.012872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab
+  artifactKey: Guid(a303e95807e2616408f6c4cff0fd3208) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab using Guid(a303e95807e2616408f6c4cff0fd3208) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fb2511ab545b10003e4e2f01acc4578') in 0.011550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab
+  artifactKey: Guid(206dc24d514cdd146a07be8e731a56e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow4.prefab using Guid(206dc24d514cdd146a07be8e731a56e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2be940a190f696cb110fe30919104039') in 0.010666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png
+  artifactKey: Guid(bb3b71277204e0048925dd90850a68a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask3.png using Guid(bb3b71277204e0048925dd90850a68a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b6c9c532a06bbf4831d517bc99372b8') in 0.010429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab
+  artifactKey: Guid(972b4b7d4d0542c4faf5702b3f9f3e27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab using Guid(972b4b7d4d0542c4faf5702b3f9f3e27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfd95b51e8d7a93977f4910c4a5f127') in 0.011248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
+  artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b87d7e1d677ada52e0e56dcb1f17baf') in 0.009242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab
+  artifactKey: Guid(c6b3f5b24fac195409550702e5daa40f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_1_Mirrored.prefab using Guid(c6b3f5b24fac195409550702e5daa40f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecf16d9183edea2b0ad06f49d9716d81') in 0.009663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab
+  artifactKey: Guid(12e2965e034095b40b035c26bdecd5ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow8.prefab using Guid(12e2965e034095b40b035c26bdecd5ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '329b560a4940bb98afa8d0c6a6c65b8b') in 0.012133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab
+  artifactKey: Guid(9049f178339a1ec49b8d10542e9d6787) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab using Guid(9049f178339a1ec49b8d10542e9d6787) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5671704edf77600d4370e5b6812e9673') in 0.010803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38978b44368ba6f5f8bdaee47082b5e9') in 0.007451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab
+  artifactKey: Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab using Guid(6647bc14b7f253f4aa7ed042ccbd8304) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f60e7408d10456820f1bba4a2eaf6dd') in 0.011053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab
+  artifactKey: Guid(7690b2cb20a500246a3f2b3c6e42d9d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab using Guid(7690b2cb20a500246a3f2b3c6e42d9d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bade1b0e1a057e9242267b59ebc59599') in 0.012302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab
+  artifactKey: Guid(5706df97cdf27ba49a0f927eb658626d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab using Guid(5706df97cdf27ba49a0f927eb658626d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f15503b61a750af07e4a885915fc7ac') in 0.011254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab
+  artifactKey: Guid(4a40092bbc207004fa51b938b96005eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow4.prefab using Guid(4a40092bbc207004fa51b938b96005eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98fded28028b0133bf838e85b1da3135') in 0.011548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab
+  artifactKey: Guid(c79905ec17c169a49b75177b6cf0d524) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab using Guid(c79905ec17c169a49b75177b6cf0d524) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04d45749fbfc00f54f3a4691b674d932') in 0.012063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab
+  artifactKey: Guid(53643d8f33e9df94ba733d00e1c6d10c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_3.prefab using Guid(53643d8f33e9df94ba733d00e1c6d10c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e76a293f216c3830e33567f438199af') in 0.011121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab
+  artifactKey: Guid(137404c3ccadbc94c8eafe555ab8aaee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab using Guid(137404c3ccadbc94c8eafe555ab8aaee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4709ca590e161e1357acbddfbc27f487') in 0.014552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab
+  artifactKey: Guid(33942a27e06a55e498652847d7d15f99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab using Guid(33942a27e06a55e498652847d7d15f99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '826c29e259a4b8b55f90972e6a0507de') in 0.011997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/MissilesSample.FBX
+  artifactKey: Guid(afbbf42a35d3ca347aea29a1457035cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/MissilesSample.FBX using Guid(afbbf42a35d3ca347aea29a1457035cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd11e15d46a4c3db295cf8e82d743b48c') in 0.007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab
+  artifactKey: Guid(aae4d5d87da633540b5fbe5ecc1e173b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab using Guid(aae4d5d87da633540b5fbe5ecc1e173b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c1c94eb7d988ba36099608bfb85fbe') in 0.010912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Scripts/Utilities/SystemObject.cs
+  artifactKey: Guid(0967518313caa7742adc7ae4b0a9d9c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/SystemObject.cs using Guid(0967518313caa7742adc7ae4b0a9d9c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86801d7b2da6945fbee38f9501e88feb') in 0.006660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab
+  artifactKey: Guid(7861019a7b8cb6f4db5310695263b29a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab using Guid(7861019a7b8cb6f4db5310695263b29a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '539f990615c9b237367312dfe25586cd') in 0.011762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll
+  artifactKey: Guid(5c65184932ff4fd48a343e2360256baf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll using Guid(5c65184932ff4fd48a343e2360256baf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29a2dd5e7e275ff82c9f82c7e6dce0e9') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
+  artifactKey: Guid(e47736c9193f7dd4d8dc3eef50ba64c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab using Guid(e47736c9193f7dd4d8dc3eef50ba64c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a69410f58cd91e367e38b708ecd036e2') in 0.011107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX
+  artifactKey: Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX using Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe464d6f94b1def236073fb51ccdb305') in 0.007411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Scripts/Utilities/TAGS.cs
+  artifactKey: Guid(e6ebca2e52648f949b5df0e9d1410a94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/TAGS.cs using Guid(e6ebca2e52648f949b5df0e9d1410a94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4fa4517811970ffb06b608ae671623a') in 0.007049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
+  artifactKey: Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab using Guid(79e4c0d1647edb24e82e40e6b4bcaa7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452570c44f03be300757b2b3c2d62bdd') in 0.011504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
+  artifactKey: Guid(328366602c7f9ae4aa29ecb957c7731d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab using Guid(328366602c7f9ae4aa29ecb957c7731d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc1a167847fcfec162ca4c0544a00b7') in 0.011516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab
+  artifactKey: Guid(fa8aadfb07ca2034188c69c6f2ab4624) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Mine Sample 2.prefab using Guid(fa8aadfb07ca2034188c69c6f2ab4624) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fecde28cde19928aa79bc12b54473748') in 0.011702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab
+  artifactKey: Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab using Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '642d015e146c9b4f0e960beaa48fb021') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data
+  artifactKey: Guid(728df0e3465c1a148b83053a3f31d489) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data using Guid(728df0e3465c1a148b83053a3f31d489) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b31b7ee22379cc95519c4e7310451019') in 0.007653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png
+  artifactKey: Guid(98a18c0634080da40a446c86ad6083b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png using Guid(98a18c0634080da40a446c86ad6083b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ed68a146e03d4099e98c06433a76ac0') in 0.011819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png
+  artifactKey: Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png using Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '073d3491b02df349d31fc21cae3bf264') in 0.014134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png
+  artifactKey: Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_EmissionBlue.png using Guid(6dcf0670d2ea1ca4987d2a0e3d9ab0a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ac068343674d2d8eded15c0fffb80a2') in 0.011530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
+  artifactKey: Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png using Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c3b9b20c12597ea6cf7e3aeaf870bcb') in 0.013809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs
+  artifactKey: Guid(74718b273a32d874a9dc3c58269c36b3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs using Guid(74718b273a32d874a9dc3c58269c36b3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ed4e091cb3bf9390e22989b6680b0b6') in 0.006722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png
+  artifactKey: Guid(a909b68486656de4986628989cc5f12a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png using Guid(a909b68486656de4986628989cc5f12a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b39666c5f424322f47aa3245dfd92a7d') in 0.015665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.mdb
+  artifactKey: Guid(5651992cdad94894a3af7dc3f1da086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.mdb using Guid(5651992cdad94894a3af7dc3f1da086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '720b6629d1fbd5326dd89d2c37a6668e') in 0.005883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png
+  artifactKey: Guid(795d73f8d514ef943bdeca72975d452d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Grey.png using Guid(795d73f8d514ef943bdeca72975d452d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b490428032acce41db4a8b752073cd98') in 0.010267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png
+  artifactKey: Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png using Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24134d25a1bc133c45b1b6525aebad30') in 0.010490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset
+  artifactKey: Guid(08379ccefc05200459f90a1c0711a340) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset using Guid(08379ccefc05200459f90a1c0711a340) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91b1a7a0380cbb575b86939fc32fabda') in 0.011869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d9202b157c61c939aff8fcc7de5a5a9') in 0.011195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset
+  artifactKey: Guid(d0dd4a1debfb72747b5c47968450ae08) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset using Guid(d0dd4a1debfb72747b5c47968450ae08) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a61b13ab1ed145a30979caf91c5f1429') in 0.009228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.mdb
+  artifactKey: Guid(1e0a9643dc0d4b46bf2321f72c4e086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.mdb using Guid(1e0a9643dc0d4b46bf2321f72c4e086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd499427c7594d9a3ccb8095e22a3def6') in 0.006297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
+  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f4bf9d4fda83ab3729068201bc80c62') in 0.011954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef
+  artifactKey: Guid(ad968d605628d06499b62cdc30f11cf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef using Guid(ad968d605628d06499b62cdc30f11cf8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '178a79b6f8292693ae81a7ca7387492c') in 0.011426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
+  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b23b8fa83076e2b1c2e52b5330ef7ae') in 0.010424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
+  artifactKey: Guid(56788cf7355aae243a176c2002e84e15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png using Guid(56788cf7355aae243a176c2002e84e15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dd5d411b74400aa8a427650d13b858d') in 0.010819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll
+  artifactKey: Guid(5978f8f3dd274e848fbb7a123bde1fb9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll using Guid(5978f8f3dd274e848fbb7a123bde1fb9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9f96b1ecb12fa2d73b778aed14768de') in 0.007266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
+  artifactKey: Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png using Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68a796962fdda08dbd6b0981f208098a') in 0.012155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png
+  artifactKey: Guid(50cd73a325d3a0145a19c956de7950a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png using Guid(50cd73a325d3a0145a19c956de7950a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c1ef7b13d4bcf03c1b5bb213190c9fc') in 0.011623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll
+  artifactKey: Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll using Guid(1e0a9643dc0d4b46bf2321f72c4e503e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d7e69095a7c3090f92b324d0a56b7bc') in 0.007098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset
+  artifactKey: Guid(0ef9c6a92fa7cc04a93daf72a1e43a6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset using Guid(0ef9c6a92fa7cc04a93daf72a1e43a6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c872dbb54325035869adc1e3b7832e99') in 0.016845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data
+  artifactKey: Guid(4866e740a22eb1e49b1603b051e4d92c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data using Guid(4866e740a22eb1e49b1603b051e4d92c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa55eaf26df56a0444119fcef373998f') in 0.006456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png
+  artifactKey: Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png using Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '722b6da40087165fad281d19140d5c72') in 0.014681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.mdb
+  artifactKey: Guid(5978f8f3dd274e848fbb7a123bde086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.mdb using Guid(5978f8f3dd274e848fbb7a123bde086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6924738df17b2e8298949bbdcb70743') in 0.006828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow15.fbx
+  artifactKey: Guid(4ac596a5da39c934992511e9527a6984) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Meshes/StarSparrow15.fbx using Guid(4ac596a5da39c934992511e9527a6984) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fea74b2366ca7ecbc31e3c9826179cf3') in 0.008507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs
+  artifactKey: Guid(bda5b631304c8cb4485d60ef8bda618b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs using Guid(bda5b631304c8cb4485d60ef8bda618b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b3607d8cd6478dc2ba737b96a843950') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs
+  artifactKey: Guid(2fc48d59edff00f49b8ae717c776ff45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs using Guid(2fc48d59edff00f49b8ae717c776ff45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0af138db7d9cd8b7afaedb6a1cdd2084') in 0.007217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset
+  artifactKey: Guid(070b6f9e3a020e34cb282122fe22249e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset using Guid(070b6f9e3a020e34cb282122fe22249e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e363b5dc166526b5d8ab41312a5e35d') in 0.007138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs
+  artifactKey: Guid(435323e396d85494daeb5278528fe138) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs using Guid(435323e396d85494daeb5278528fe138) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b8d83e65a9bb72ae39afc981d74ce7') in 0.007676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs
+  artifactKey: Guid(30393ed590c8fb64da0612e8a2fad8a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs using Guid(30393ed590c8fb64da0612e8a2fad8a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a755fe1a8938326cb2cab8c1eb0a54f0') in 0.007580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab
+  artifactKey: Guid(68009645f1254634c872da28df04bab8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing_2_Mirrored.prefab using Guid(68009645f1254634c872da28df04bab8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba02346279b8c25c2b5678226768cb47') in 0.011357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Shield/vfx_ShieldImpact.vfx
+  artifactKey: Guid(e063cfa341e5a4247b63229f2f436c21) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Models/Shield/vfx_ShieldImpact.vfx using Guid(e063cfa341e5a4247b63229f2f436c21) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78befcab1bbd3e418f2dbbc811a75f23') in 0.008073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/Bomb.mat
+  artifactKey: Guid(2d81e0bd71e79784199dbdf6880a51e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Materials/BonusContent/Bomb.mat using Guid(2d81e0bd71e79784199dbdf6880a51e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ba9091ac8e3d643e883e8dd3e0e3943') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GalaxyFire/Textures/down_galaxyfire.tif
+  artifactKey: Guid(03557cb833a29514e809fe3121c3b04d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Textures/down_galaxyfire.tif using Guid(03557cb833a29514e809fe3121c3b04d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6930c5db8e7c562b4e7c0707a83d0857') in 0.008147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/ShipSetup.unity
+  artifactKey: Guid(2808560af524a9049914eed825b1293d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/ShipSetup.unity using Guid(2808560af524a9049914eed825b1293d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8181b7860e47435fbac2dbf9a6ce6261') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png
+  artifactKey: Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png using Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ca6c25313d0e850de4e00c396bba7e2') in 0.010964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GalaxyFire/Textures/up_galaxyfire.tif
+  artifactKey: Guid(e5aaf30e569994d4ab3e49689e74b63f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/GalaxyFire/Textures/up_galaxyfire.tif using Guid(e5aaf30e569994d4ab3e49689e74b63f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2006996c6e6cf4aaa7f6e515f0367d52') in 0.008214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Grey.png
+  artifactKey: Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Grey.png using Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ad7cd10175e811c0414ec4425ee5a13') in 0.009353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Emission.png
+  artifactKey: Guid(e285b114efc2a1240b2b32966432623c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Textures/StarSparrow_Emission.png using Guid(e285b114efc2a1240b2b32966432623c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bf4b7b93107a9679b4756ae4c19048a') in 0.007888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Scripts/Utilities/UIDiagnostic.cs
+  artifactKey: Guid(13875b08aba23af49aa2e6ac3824fe82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/UIDiagnostic.cs using Guid(13875b08aba23af49aa2e6ac3824fe82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebddf715240cdbcfebf217db91c9cd35') in 0.006873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab
+  artifactKey: Guid(4d54efa43b03b1845b929768cf25e790) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab using Guid(4d54efa43b03b1845b929768cf25e790) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7ac80709ebdddd60325e340cd44c001') in 0.012121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Scripts/CameraFollow.cs
+  artifactKey: Guid(0950a9db8fe52624ea3ccf98791709c3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/CameraFollow.cs using Guid(0950a9db8fe52624ea3ccf98791709c3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d9282903fdceda00a086aaa9abe9ee6') in 0.006915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
+  artifactKey: Guid(7ea0027aa6205b044b76dc341d565c7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab using Guid(7ea0027aa6205b044b76dc341d565c7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '580cb0c2852382730365dab9125810fe') in 0.011108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Scripts/Utilities/IEquipmentPoint.cs
+  artifactKey: Guid(710ddfa781813db47837ff88d3c52c1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/IEquipmentPoint.cs using Guid(710ddfa781813db47837ff88d3c52c1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efccb7535ce64eeaae45f70d13552873') in 0.006204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs
+  artifactKey: Guid(047c7e4af9c032a428c12b7c564a6593) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs using Guid(047c7e4af9c032a428c12b7c564a6593) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c4d9c0985bbcf7128339ecd6905ab2e') in 0.007128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UI/phaserRed.png
+  artifactKey: Guid(f9b72093b7efd3e469d0c5b166c7172a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/phaserRed.png using Guid(f9b72093b7efd3e469d0c5b166c7172a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c980407872c29434b8e2f14000aa59a') in 0.012257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/StarSparrow/Scenes/BonusContentSettings.lighting
+  artifactKey: Guid(12df3d88b0ad8da4890acec6a83cbf44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Scenes/BonusContentSettings.lighting using Guid(12df3d88b0ad8da4890acec6a83cbf44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a802be0f4f506cbe88d096c0f282bcd8') in 0.011247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll
+  artifactKey: Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll using Guid(74721b9f0af448f5ae2e91102a1a5edd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b8822d39f4f87fcce2b9dba8ff9e6a2') in 0.006817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.mdb
+  artifactKey: Guid(47a84ebde4ec47fabb620b30cc7a086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.mdb using Guid(47a84ebde4ec47fabb620b30cc7a086f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f555d296f4160a4fafe69b868ccff433') in 0.006637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Defiant.jpg
+  artifactKey: Guid(e70e9a28acade964eaeb78170601192b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI/Defiant.jpg using Guid(e70e9a28acade964eaeb78170601192b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed7407634c2709b12394db60ed8086d5') in 0.014074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Scripts/Utilities/Weapon.cs
+  artifactKey: Guid(fd422b629456aaf499251fda9ee41dfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Scripts/Utilities/Weapon.cs using Guid(fd422b629456aaf499251fda9ee41dfc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb63601ffb43064947577484752c1684') in 0.005859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab
+  artifactKey: Guid(feb130a8adcebe54aa314f58f408c412) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab using Guid(feb130a8adcebe54aa314f58f408c412) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9b77a04af662f7c168009a1c238e3ea') in 0.013026 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
