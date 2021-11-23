@@ -53,8 +53,12 @@ Material:
     - _FrenelPower: 2
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SphereHardness: 1
+    - _SphereMask: 0
+    - _SphereRadius: 1
     m_Colors:
     - _BackFace: {r: 1.9843137, g: 0.14117648, b: 0, a: 0.2705882}
-    - _FrenelColor: {r: 3.031433, g: 0.023775948, b: 2.3775947, a: 1}
+    - _FrenelColor: {r: 95.87451, g: 1.0039216, b: 75.29412, a: 1}
     - _FrontFace: {r: 0, g: 37.85166, b: 39.396626, a: 1}
+    - _SphereCenter: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
