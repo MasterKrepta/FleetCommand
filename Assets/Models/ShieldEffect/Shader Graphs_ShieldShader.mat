@@ -51,7 +51,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _FrenelPower: 2
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _SphereHardness: 1
     - _SphereMask: 0

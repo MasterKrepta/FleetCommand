@@ -15,6 +15,8 @@ public class SpawnShieldImpact : MonoBehaviour
     {
         if (co.gameObject.tag == "Weapon")
         { 
+            Destroy(co.gameObject);
+
             var impact = Instantiate(shieldImpact, transform) as GameObject;
             shieldImpactVFX = impact.GetComponent<VisualEffect>();
             shieldImpactVFX.SetVector3("SphereCenter", co.contacts[0].point);
