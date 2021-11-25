@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3467809805892618257}
   - component: {fileID: 7888288944880530724}
   m_Layer: 0
-  m_Name: vfx_Shield Impact
+  m_Name: vfx_Shield Impact wColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

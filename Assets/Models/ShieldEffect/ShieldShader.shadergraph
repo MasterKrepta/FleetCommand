@@ -29,6 +29,9 @@
         },
         {
             "m_Id": "2528851cca5c466ab37c8e22d499df15"
+        },
+        {
+            "m_Id": "595c1334bf524d37b93f61c4b6f60aa7"
         }
     ],
     "m_Keywords": [],
@@ -1917,6 +1920,28 @@
     "m_TextureType": 0,
     "m_NormalMapSpace": 0,
     "m_EnableGlobalMipBias": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "595c1334bf524d37b93f61c4b6f60aa7",
+    "m_Guid": {
+        "m_GuidSerialized": "6a097735-19a4-42eb-bd42-c6ab970726d2"
+    },
+    "m_Name": "Boolean",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Boolean",
+    "m_DefaultReferenceName": "_Boolean",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
 }
 
 {
@@ -3819,6 +3844,9 @@
         },
         {
             "m_Id": "2528851cca5c466ab37c8e22d499df15"
+        },
+        {
+            "m_Id": "595c1334bf524d37b93f61c4b6f60aa7"
         }
     ]
 }
