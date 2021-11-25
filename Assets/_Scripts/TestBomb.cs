@@ -11,11 +11,8 @@ public class TestBomb : MonoBehaviour
     {
         int rand = Random.Range(0, possibleColors.Length);
         assignedColor = possibleColors[rand];
+        GetComponent<Material>().color = assignedColor.colorKeys[0].color;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 }
