@@ -2,24 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour, IDamageable
-
+public class ShieldHealth : MonoBehaviour, IDamageable
 {
     [SerializeField]
     private float _currentHealth;
+
     [SerializeField]
     private float _maxHealth;
-
-    public float MaxHealth
-    {
-        get { return _maxHealth; }
-        set { _maxHealth = value; }
-    }
-
     public float CurrentHealth
     {
         get { return _currentHealth; }
-        set 
+        set
         {
             _currentHealth = value;
             if (_currentHealth <= 0)
@@ -28,7 +21,13 @@ public class Health : MonoBehaviour, IDamageable
             }
         }
     }
-  
+
+    public float MaxHealth
+    {
+        get { return _maxHealth; }
+        set { _maxHealth = value; }
+    }
+
 
 
     private void Awake()
@@ -37,14 +36,13 @@ public class Health : MonoBehaviour, IDamageable
     }
     public void Die()
     {
-        TargetComputer.Instance.RemoveTarget(this.gameObject);
-        TargetComputer.Instance.CurrentTarget = null;
-        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
 
     public void TakeDamage(float dmg)
     {
         CurrentHealth -= dmg;
+        //TODO setup shield recharging. 
     }
 
     private void OnCollisionEnter(Collision co)

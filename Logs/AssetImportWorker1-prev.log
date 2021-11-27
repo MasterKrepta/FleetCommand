@@ -15,7 +15,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60904
+62444
 Successfully changed project path to: C:/Users/brian/Documents/Unity/FleetCommand
 C:/Users/brian/Documents/Unity/FleetCommand
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/brian/Documents/Unity/FleetCommand
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,154 +63,154 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004289 seconds.
+Registered in 0.004469 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.513 seconds
+- Completed reload, in  0.749 seconds
 Domain Reload Profiling:
-	ReloadAssembly (513ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (396ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008476 seconds.
+Registered in 0.009010 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a4d0ba773 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a4d0ba44b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a4d0ba1d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a4d0ba098 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a4d0b9b9b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
-0x0000029a4d0b972b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
-0x0000029a4d0b97f5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f597e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
-0x00007fff48ec6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
-0x0000029a3e4e7b0a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
-0x0000029a3e4e7a1b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-0x0000029a3e4e69d3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-0x0000029a3e44f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff767cd2b05 (Unity) ScriptingInvocation::Invoke<void>
-0x00007ff767df67e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
-0x00007ff767cb285b (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff767ca843d (Unity) MonoManager::EndReloadAssembly
-0x00007ff767cafe58 (Unity) MonoManager::ReloadAssembly
-0x00007ff768bc3822 (Unity) LoadDomainAndUserAssemblies
-0x00007ff768bc3f54 (Unity) LoadUserAssemblies
-0x00007ff7688c8a47 (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c578ea603 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c578ea2db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c578ea060 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c578e9f28 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c578e9a2b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c578e95bb (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c578e9685 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48c47b0a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48c47a1b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48c469d3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48baf8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788618a47 (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 <WakaTime> Sending heartbeat...
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a4d0ba773 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a4d0ba44b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a4d0ba1d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a4d0ba098 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a4d0ba8f3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
-0x0000029a4d0b9bab (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
-0x0000029a4d0b972b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
-0x0000029a4d0b97f5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f597e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
-0x00007fff48ec6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
-0x0000029a3e4e7b0a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
-0x0000029a3e4e7a1b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-0x0000029a3e4e69d3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-0x0000029a3e44f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff767cd2b05 (Unity) ScriptingInvocation::Invoke<void>
-0x00007ff767df67e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
-0x00007ff767cb285b (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff767ca843d (Unity) MonoManager::EndReloadAssembly
-0x00007ff767cafe58 (Unity) MonoManager::ReloadAssembly
-0x00007ff768bc3822 (Unity) LoadDomainAndUserAssemblies
-0x00007ff768bc3f54 (Unity) LoadUserAssemblies
-0x00007ff7688c8a47 (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c578ea603 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c578ea2db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c578ea060 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c578e9f28 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c578ea783 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c578e9a3b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c578e95bb (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c578e9685 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48c47b0a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48c47a1b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48c469d3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48baf8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788618a47 (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.634 seconds
+- Completed reload, in  3.011 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2635ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (3011ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (2423ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (2795ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1976ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (2205ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (1704ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
+				ProcessInitializeOnLoadAttributes (1939ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -218,86 +218,86 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"3980b5cf-0ca2-41f5-bc0b-671b024499d7"}}
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a4d0ba773 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a4d0ba44b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a4d0ba1d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a4d0ba098 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a50e1b10b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
-0x0000029a50e1afdb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-0x0000029a3e604348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff76799488b (Unity) AsyncOperation::InvokeCoroutine
-0x00007ff76824958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff768249771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff76794e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff7679f124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff769052707 (Unity) <lambda_96b0459159eca79b4543caeea2068bef>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc17 (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+{"data":{"id":"60b5063d-a62c-43ed-b8e0-145c3fbcf66d"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c578ea603 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c578ea2db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c578ea060 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c578e9f28 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c5b62b10b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c5b62afdb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48db4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da2707 (Unity) <lambda_96b0459159eca79b4543caeea2068bef>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc17 (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 <WakaTime> Sent heartbeat!
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a4d0ba773 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a4d0ba44b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a4d0ba1d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a4d0ba098 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a50e1b203 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
-0x0000029a50e1afdb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-0x0000029a3e604348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff76799488b (Unity) AsyncOperation::InvokeCoroutine
-0x00007ff76824958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff768249771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff76794e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff7679f124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff769052707 (Unity) <lambda_96b0459159eca79b4543caeea2068bef>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc17 (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c578ea603 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c578ea2db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c578ea060 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c578e9f28 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c5b62b203 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c5b62afdb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48db4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da2707 (Unity) <lambda_96b0459159eca79b4543caeea2068bef>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc17 (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
-Unloading 5446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5943.
-Memory consumption went from 215.3 MB to 213.9 MB.
-Total: 24.236000 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.208400 ms MarkObjects: 23.025100 ms  DeleteObjects: 0.533100 ms)
+Unloading 5447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 5944.
+Memory consumption went from 215.1 MB to 213.6 MB.
+Total: 24.551900 ms (FindLiveObjects: 0.474500 ms CreateObjectMapping: 0.459100 ms MarkObjects: 23.073200 ms  DeleteObjects: 0.543900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -311,15 +311,1349 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 177276.928887 seconds.
-  path: Assets/Models/Shield/shieldWave.png
-  artifactKey: Guid(1449f9b9c1618174dba2cd9fcc70a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shield/shieldWave.png using Guid(1449f9b9c1618174dba2cd9fcc70a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8809e565b5496c230712a6880d945a') in 0.085214 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceb533 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceb20b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48ceaf90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48ceae58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48cea95b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c48cea4eb (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48cea5b5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c59f4ed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c59f4ec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c59f4dc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48b8f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceb533 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceb20b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48ceaf90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48ceae58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48ceb6b3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c48cea96b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c48cea4eb (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48cea5b5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c59f4ed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c59f4ec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c59f4dc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48b8f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2052ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1830ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1179ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"87b01375-9a0f-4752-a29d-36188d30da07"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceb533 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceb20b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48ceaf90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48ceae58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a4b462b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a4b44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c57864348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceb533 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceb20b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48ceaf90 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48ceae58 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a4b4723 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a4b44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c57864348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5946.
+Memory consumption went from 208.1 MB to 206.7 MB.
+Total: 24.385000 ms (FindLiveObjects: 0.559200 ms CreateObjectMapping: 0.476500 ms MarkObjects: 22.892200 ms  DeleteObjects: 0.455200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008129 seconds.
+Registered in 0.007789 seconds.
+Begin MonoManager ReloadAssembly
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a55adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a55aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a55a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a55a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a55a21b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c4a559dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c4a559e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a45ed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a45ec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a45dc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c59f4f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a55adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a55aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a55a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a55a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a55af73 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c4a55a22b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c4a559dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c4a559e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a45ed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a45ec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a45dc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c59f4f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1921ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1710ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1133ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"bae7280a-ed1a-4df5-be95-c7065238de33"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a55adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a55aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a55a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a55a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48a8487b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48a8474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c479b4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a55adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a55aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a55a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a55a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48a84973 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48a8474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c479b4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5948.
+Memory consumption went from 208.4 MB to 207.0 MB.
+Total: 23.548500 ms (FindLiveObjects: 0.509300 ms CreateObjectMapping: 0.367800 ms MarkObjects: 22.148400 ms  DeleteObjects: 0.521600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008031 seconds.
+Begin MonoManager ReloadAssembly
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceaf63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48cea9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48cea888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48cea38b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c48ce9f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48ce9fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a59ea3a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a59e94b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a59d903 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a4df8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceaf63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48cea9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48cea888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48ceb0e3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c48cea39b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c48ce9f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48ce9fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a59ea3a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a59e94b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a59d903 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a4df8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2211ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2000ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (1398ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"ae3d5197-61f8-4382-bc95-c6f8a489a92b"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceaf63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48cea9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48cea888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a4c487b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a4c474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c4a544348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48ceaf63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48ceac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48cea9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48cea888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a4c4973 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a4c474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c4a544348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5950.
+Memory consumption went from 208.5 MB to 207.1 MB.
+Total: 26.651000 ms (FindLiveObjects: 0.582900 ms CreateObjectMapping: 0.325400 ms MarkObjects: 24.950100 ms  DeleteObjects: 0.791000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a56adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a56aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a56a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a56a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a56a21b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c4a569dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c4a569e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a46ea3a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a46e94b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a46d903 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a59f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a56adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a56aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a56a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a56a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a56af73 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c4a56a22b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c4a569dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c4a569e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c4a46ea3a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c4a46e94b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c4a46d903 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a59f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1969ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1759ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1176ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"26612d35-a1dc-4229-ae67-c28b3bb84aa4"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a56adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a56aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a56a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a56a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48c5487b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48c5474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48a74348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c4a56adf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c4a56aacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c4a56a850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c4a56a718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48c54973 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48c5474b (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48a74348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5952.
+Memory consumption went from 208.5 MB to 207.1 MB.
+Total: 25.494900 ms (FindLiveObjects: 0.472300 ms CreateObjectMapping: 0.503200 ms MarkObjects: 24.063400 ms  DeleteObjects: 0.454700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c47a9af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c47a9ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c47a9a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c47a9a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c47a9a38b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c47a99f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c47a99fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c479aed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c479aec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c479adc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a4ef8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c47a9af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c47a9ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c47a9a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c47a9a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c47a9b0e3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c47a9a39b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c47a99f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c47a99fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c479aed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c479aec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c479adc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c4a4ef8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2173ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1960ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (1300ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"94ad7f05-b014-4548-89a2-8358b8348f97"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c47a9af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c47a9ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c47a9a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c47a9a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48fc462b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48fc44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c4a554348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c47a9af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c47a9ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c47a9a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c47a9a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48fc4723 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c48fc44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c4a554348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5954.
+Memory consumption went from 208.6 MB to 207.2 MB.
+Total: 26.114700 ms (FindLiveObjects: 0.461400 ms CreateObjectMapping: 0.296900 ms MarkObjects: 24.798400 ms  DeleteObjects: 0.556300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Initializing...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48c6af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48c6ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48c6a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48c6a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48c6a38b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c48c69f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48c69fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48baed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48baec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48badc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48a8f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sending heartbeat...
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48c6af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48c6ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48c6a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48c6a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48c6b0e3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c48c6a39b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c48c69f1b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48c69fe5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48baed8a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48baec9b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48badc53 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48a8f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1843ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1643ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (1088ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+<WakaTime> Got response
+{"data":{"id":"c4f97133-a36c-4d96-8528-ff89a6e61635"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48c6af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48c6ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48c6a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48c6a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a57462b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a5744fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c47954348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+<WakaTime> Sent heartbeat!
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48c6af63 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48c6ac3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48c6a9c0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48c6a888 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a574723 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a5744fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c47954348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
+
+Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5956.
+Memory consumption went from 208.6 MB to 207.2 MB.
+Total: 22.750700 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.335600 ms MarkObjects: 21.558700 ms  DeleteObjects: 0.480600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008996 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\brian\Documents\Unity\FleetCommand\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -327,206 +1661,206 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Initializing...
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a414cb563 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a414cb23b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a414cafc0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a414cae88 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a414ca98b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
-0x0000029a414ca51b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
-0x0000029a414ca5e5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f597e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
-0x00007fff48ec6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
-0x0000029a4f85eeea (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
-0x0000029a4f85edfb (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-0x0000029a4f85ddb3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-0x0000029a43fcf8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff767cd2b05 (Unity) ScriptingInvocation::Invoke<void>
-0x00007ff767df67e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
-0x00007ff767cb285b (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff767ca843d (Unity) MonoManager::EndReloadAssembly
-0x00007ff767cafe58 (Unity) MonoManager::ReloadAssembly
-0x00007ff768bc3822 (Unity) LoadDomainAndUserAssemblies
-0x00007ff768bc3f54 (Unity) LoadUserAssemblies
-0x00007ff769053648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc3e (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48fcadf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48fcaacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48fca850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48fca718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48fca21b (Mono JIT Code) [Plugin.cs:62] WakaTime.Plugin:Initialize () 
+0x0000029c48fc9dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48fc9e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48dbf0da (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48dbefeb (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48dbdfa3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48a7f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 <WakaTime> Sending heartbeat...
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a414cb563 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a414cb23b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a414cafc0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a414cae88 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a414cb6e3 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
-0x0000029a414ca99b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
-0x0000029a414ca51b (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
-0x0000029a414ca5e5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f597e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
-0x00007fff48ec6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
-0x0000029a4f85eeea (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
-0x0000029a4f85edfb (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-0x0000029a4f85ddb3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-0x0000029a43fcf8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff767cd2b05 (Unity) ScriptingInvocation::Invoke<void>
-0x00007ff767df67e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
-0x00007ff767cb285b (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff767ca843d (Unity) MonoManager::EndReloadAssembly
-0x00007ff767cafe58 (Unity) MonoManager::ReloadAssembly
-0x00007ff768bc3822 (Unity) LoadDomainAndUserAssemblies
-0x00007ff768bc3f54 (Unity) LoadUserAssemblies
-0x00007ff769053648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc3e (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48fcadf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48fcaacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48fca850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48fca718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c48fcaf73 (Mono JIT Code) [Plugin.cs:130] WakaTime.Plugin:SendHeartbeat (bool) 
+0x0000029c48fca22b (Mono JIT Code) [Plugin.cs:63] WakaTime.Plugin:Initialize () 
+0x0000029c48fc9dab (Mono JIT Code) [Plugin.cs:35] WakaTime.Plugin:.cctor () 
+0x0000029c48fc9e75 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f8897e0 (mono-2.0-bdwgc) [object.c:563] mono_runtime_class_init_full 
+0x00007ffe4f7f6240 (mono-2.0-bdwgc) [icall-def.h:751] ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw 
+0x0000029c48dbf0da (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000029c48dbefeb (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000029c48dbdfa3 (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000029c48a7f8c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff787a22b05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff787b467e3 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff787a0285b (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff7879f843d (Unity) MonoManager::EndReloadAssembly
+0x00007ff7879ffe58 (Unity) MonoManager::ReloadAssembly
+0x00007ff788913822 (Unity) LoadDomainAndUserAssemblies
+0x00007ff788913f54 (Unity) LoadUserAssemblies
+0x00007ff788da3648 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.063 seconds
+- Completed reload, in  2.174 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2064ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (2174ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1860ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1966ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1391ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1474ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (1235ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (1314ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <WakaTime> Got response
-{"data":{"id":"ab4dc1fa-315b-4d38-89e9-9bef2b5dea50"}}
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a414cb563 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a414cb23b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a414cafc0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a414cae88 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a538a83fb (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
-0x0000029a538a82cb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-0x0000029a49424348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff76799488b (Unity) AsyncOperation::InvokeCoroutine
-0x00007ff76824958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff768249771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff76794e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff7679f124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff7690536ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc3e (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+{"data":{"id":"1aaf4ab5-65fa-4d88-bed2-83b386c6fcf9"}}
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48fcadf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48fcaacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48fca850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48fca718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a5c462b (Mono JIT Code) [Plugin.cs:158] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a5c44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48ad4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 <WakaTime> Sent heartbeat!
-0x00007ff767db8c5d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff767dbf9b9 (Unity) StackWalker::ShowCallstack
-0x00007ff768d078f3 (Unity) GetStacktrace
-0x00007ff76938ae7d (Unity) DebugStringToFile
-0x00007ff766f4e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x0000029a414cb563 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x0000029a414cb23b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x0000029a414cafc0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x0000029a414cae88 (Mono JIT Code) UnityEngine.Debug:Log (object)
-0x0000029a538a84f3 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
-0x0000029a538a82cb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
-0x0000029a49424348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007fff4901e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
-0x00007fff48f5e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
-0x00007fff48f5e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
-0x00007ff767cde4d4 (Unity) scripting_method_invoke
-0x00007ff767cd9154 (Unity) ScriptingInvocation::Invoke
-0x00007ff76799488b (Unity) AsyncOperation::InvokeCoroutine
-0x00007ff76824958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff768249771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff76794e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff7679f124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff7690536ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
-0x00007ff7690e8592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff7690ea81d (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff7690edc3e (Unity) asio::io_service::run
-0x00007ff7690e6a31 (Unity) IOService::Run
-0x00007ff76907fb98 (Unity) RunAssetImportWorkerClientV2
-0x00007ff76907fc6b (Unity) RunAssetImporterV2
-0x00007ff7688c8a4c (Unity) Application::InitializeProject
-0x00007ff768d11fd8 (Unity) WinMain
-0x00007ff76a0213a2 (Unity) __scrt_common_main_seh
-0x00007fffab467034 (KERNEL32) BaseThreadInitThunk
-0x00007fffac3e2651 (ntdll) RtlUserThreadStart
+0x00007ff787b08c5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff787b0f9b9 (Unity) StackWalker::ShowCallstack
+0x00007ff788a578f3 (Unity) GetStacktrace
+0x00007ff7890dae7d (Unity) DebugStringToFile
+0x00007ff786c9e292 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000029c48fcadf3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000029c48fcaacb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000029c48fca850 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000029c48fca718 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000029c4a5c4723 (Mono JIT Code) [Plugin.cs:174] WakaTime.Plugin/<>c__DisplayClass21_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) 
+0x0000029c4a5c44fb (Mono JIT Code) UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+0x0000029c48ad4348 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ffe4f94e034 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe4f88e724 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe4f88e8bc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff787a2e4d4 (Unity) scripting_method_invoke
+0x00007ff787a29154 (Unity) ScriptingInvocation::Invoke
+0x00007ff7876e488b (Unity) AsyncOperation::InvokeCoroutine
+0x00007ff787f9958c (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff787f99771 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff78769e98a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff78774124f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff788da36ec (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff788e38592 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff788e3a81d (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff788e3dc3e (Unity) asio::io_service::run
+0x00007ff788e36a31 (Unity) IOService::Run
+0x00007ff788dcfb98 (Unity) RunAssetImportWorkerClientV2
+0x00007ff788dcfc6b (Unity) RunAssetImporterV2
+0x00007ff788618a4c (Unity) Application::InitializeProject
+0x00007ff788a61fd8 (Unity) WinMain
+0x00007ff789d713a2 (Unity) __scrt_common_main_seh
+0x00007ffeba997034 (KERNEL32) BaseThreadInitThunk
+0x00007ffebb982651 (ntdll) RtlUserThreadStart
 
 Unloading 5356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5962.
-Memory consumption went from 211.8 MB to 210.4 MB.
-Total: 24.736600 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.388600 ms MarkObjects: 23.406300 ms  DeleteObjects: 0.498900 ms)
+Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 5958.
+Memory consumption went from 208.7 MB to 207.3 MB.
+Total: 27.421200 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.213000 ms MarkObjects: 26.178700 ms  DeleteObjects: 0.612300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -539,32 +1873,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
-========================================================================
-Received Import Request.
-  Time since last request: 27.066694 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
-  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978c6040f0eaf8a9166a3a7fd190d4dd') in 0.061949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UI/TorpedoPhoton.png
-  artifactKey: Guid(0ef4108fc3bead9428e56f8651118d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/TorpedoPhoton.png using Guid(0ef4108fc3bead9428e56f8651118d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5126977f3a08b6527071533fa4abedf0') in 0.078656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UI/torpedoCorrosive.png
-  artifactKey: Guid(5a0ae3cff681f094b9e4d4736888090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/torpedoCorrosive.png using Guid(5a0ae3cff681f094b9e4d4736888090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9cea3651140d0c68a09daf142e6bf3') in 0.040541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/GalaxyFire/Textures/up_galaxyfire.tif
-  artifactKey: Guid(e5aaf30e569994d4ab3e49689e74b63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GalaxyFire/Textures/up_galaxyfire.tif using Guid(e5aaf30e569994d4ab3e49689e74b63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a82c4e93c0ce724fae125f7edd86f10') in 0.020974 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

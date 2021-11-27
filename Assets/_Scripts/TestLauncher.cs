@@ -7,7 +7,11 @@ public class TestLauncher : MonoBehaviour
 
     public GameObject prefab, target;
     public float fireRate = 1.5f;
-   
+
+    private void Awake()
+    {
+        target = GameObject.FindWithTag("Target");
+    }
     // Start is called before the first frame update
     void Start()
     {

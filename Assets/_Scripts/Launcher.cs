@@ -35,7 +35,7 @@ public class Launcher : MonoBehaviour, IWeapon
         StartCoroutine(RechargeWeapon());
     }
 
-    IEnumerator RechargeWeapon()
+     IEnumerator RechargeWeapon()
     {
         CanFire = false;
         yield return new WaitForSeconds(rechargeTime);
