@@ -25,7 +25,7 @@ public class TestBomb : MonoBehaviour
 
         if (target == null || distance <= explosionRange)
         {
-            target.GetComponent<IDamageable>().TakeDamage(1);
+            //target.GetComponent<IDamageable>().TakeDamage(1);
             Destroy(gameObject);
         }
     }

@@ -32,11 +32,12 @@ public class MoveTowardsTarget : MonoBehaviour
         {
             float distance = Vector3.Distance(transform.position, target.position);
 
-            if (target == null || distance <= explosionRange)
-            {
-                target.GetComponent<IDamageable>().TakeDamage(dmg);
-                Destroy(gameObject);
-            }
+            //todo refactor torpedo
+            //if (target == null || distance <= explosionRange)
+            //{
+            //    target.GetComponent<IDamageable>().TakeDamage(dmg);
+            //    Destroy(gameObject);
+            //}
         }
             
 

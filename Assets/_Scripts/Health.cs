@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Health : MonoBehaviour, IDamageable
 
+
 {
+
+    SpawnShieldImpact shield;
+
     [SerializeField]
     private float _currentHealth;
     [SerializeField]
@@ -22,6 +26,7 @@ public class Health : MonoBehaviour, IDamageable
         set 
         {
             _currentHealth = value;
+  
             if (_currentHealth <= 0)
             {
                 Die();
@@ -42,8 +47,9 @@ public class Health : MonoBehaviour, IDamageable
         Destroy(this.gameObject);
     }
 
-    public void TakeDamage(float dmg)
+    public void TakeDamage(float dmg, Collision co)
     {
+        shield.OnImpact(co);
         CurrentHealth -= dmg;
     }
 
@@ -51,7 +57,7 @@ public class Health : MonoBehaviour, IDamageable
     {
         if (co.gameObject.tag == "Weapon")
         {
-            TakeDamage(1);
+            TakeDamage(1, co);
         }
     }
 }

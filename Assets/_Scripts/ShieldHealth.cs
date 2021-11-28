@@ -39,7 +39,7 @@ public class ShieldHealth : MonoBehaviour, IDamageable
         this.gameObject.SetActive(false);
     }
 
-    public void TakeDamage(float dmg)
+    public void TakeDamage(float dmg, Collision co)
     {
         CurrentHealth -= dmg;
         //TODO setup shield recharging. 
@@ -49,7 +49,7 @@ public class ShieldHealth : MonoBehaviour, IDamageable
     {
         if (co.gameObject.tag == "Weapon")
         {
-            TakeDamage(1);
+            TakeDamage(1, co);
         }
     }
 }

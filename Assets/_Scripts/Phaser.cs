@@ -52,7 +52,8 @@ public class Phaser : MonoBehaviour, IWeapon
     IEnumerator StartPhaser(Transform target)
     {
         lr.enabled = true;
-        target.GetComponent<IDamageable>().TakeDamage(dmg);
+        Collision col = new Collision(); //todo figure this out. 
+        target.GetComponent<IDamageable>().TakeDamage(dmg, col) ;
         lr.SetPosition(1, target.transform.position);
         yield return new WaitForSeconds(BeamTime);
 
