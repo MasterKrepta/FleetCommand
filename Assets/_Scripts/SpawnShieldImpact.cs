@@ -8,6 +8,7 @@ using System;
 public class SpawnShieldImpact : MonoBehaviour
 {
     public Action<Collision> OnImpact;
+    public Action<Vector3> OnPhaserImpact;
     public GameObject shieldImpact;
 
     VisualEffect shieldImpactVFX;
@@ -15,17 +16,27 @@ public class SpawnShieldImpact : MonoBehaviour
     private void OnEnable()
     {
         OnImpact += SpawnEffect;
+        OnPhaserImpact += SpawnPhaserEffect;
     }
 
     private void OnDisable()
     {
         OnImpact -= SpawnEffect;
+        OnPhaserImpact -= SpawnPhaserEffect;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void SpawnPhaserEffect(Vector3 hit)
     {
-        SpawnEffect(collision);
+            var impact = Instantiate(shieldImpact, transform) as GameObject;
+            shieldImpactVFX = impact.GetComponent<VisualEffect>();
+            shieldImpactVFX.SetVector3("SphereCenter", hit);
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    SpawnEffect(collision);
+    //}
+
     //private void OnCollisionEnter(Collision co)
     //{
     //    if (co.gameObject.tag == "Weapon")
@@ -47,13 +58,15 @@ public class SpawnShieldImpact : MonoBehaviour
         if (co.gameObject.tag == "Weapon")
 
         {
-            Debug.Log(co.gameObject.name.ToString());
+            //Debug.Log(co.gameObject.name.ToString());
             // Gradient impactColor = co.gameObject.GetComponent<TestBomb>().assignedColor;
             
 
             var impact = Instantiate(shieldImpact, transform) as GameObject;
             shieldImpactVFX = impact.GetComponent<VisualEffect>();
             shieldImpactVFX.SetVector3("SphereCenter", co.contacts[0].point);
+
+            Debug.Log(co.contacts[0].point);
             //shieldImpactVFX.SetGradient("ImpactColor", impactColor);
             Destroy(co.gameObject);
             Destroy(impact, 2f);

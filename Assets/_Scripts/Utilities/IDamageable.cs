@@ -7,7 +7,8 @@ public interface IDamageable
     public float CurrentHealth { get; set; }
     public float MaxHealth { get; set; }
 
-    public void TakeDamage(float dmg, Collision co);
+    public void TakeDamage(float dmg, Collision co, Vector3 hit);
+
 
     void Die();
 }

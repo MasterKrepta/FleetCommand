@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 163638692344417352}
   - component: {fileID: -999413213345579302}
   - component: {fileID: 3032327967227979560}
-  - component: {fileID: -6744380290046313163}
+  - component: {fileID: 8919721679972082788}
   m_Layer: 0
   m_Name: TorpedoPrefab
   m_TagString: Weapon
@@ -68,7 +68,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &-6744380290046313163
+--- !u!135 &8919721679972082788
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

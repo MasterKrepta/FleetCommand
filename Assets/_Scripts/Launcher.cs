@@ -44,7 +44,7 @@ public class Launcher : MonoBehaviour, IWeapon
 
     public bool TargetInRange()
     {
-        print($"Current {TargetComputer.Instance.CurrentTarget.name} || in arc: {parentFov.target.name}");
+        //print($"Current {TargetComputer.Instance.CurrentTarget.name} || in arc: {parentFov.target.name}");
 
         if (TargetComputer.Instance.CurrentTarget.name == parentFov.target.name && parentFov.targetInArc)
         {

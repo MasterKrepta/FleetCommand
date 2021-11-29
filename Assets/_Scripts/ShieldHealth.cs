@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShieldHealth : MonoBehaviour, IDamageable
 {
+
+    SpawnShieldImpact shield;
     [SerializeField]
     private float _currentHealth;
 
@@ -32,6 +34,7 @@ public class ShieldHealth : MonoBehaviour, IDamageable
 
     private void Awake()
     {
+        shield = GetComponent<SpawnShieldImpact>();
         CurrentHealth = MaxHealth;
     }
     public void Die()
@@ -39,17 +42,21 @@ public class ShieldHealth : MonoBehaviour, IDamageable
         this.gameObject.SetActive(false);
     }
 
-    public void TakeDamage(float dmg, Collision co)
+    public void TakeDamage(float dmg, Collision co, Vector3 hit)
     {
+        shield.OnImpact(co);
         CurrentHealth -= dmg;
         //TODO setup shield recharging. 
     }
 
+ 
     private void OnCollisionEnter(Collision co)
     {
         if (co.gameObject.tag == "Weapon")
         {
-            TakeDamage(1, co);
+            
+            //Debug.Log("SHIELDHEALTH");
+            TakeDamage(1, co, co.contacts[0].point);
         }
     }
 }

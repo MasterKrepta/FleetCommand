@@ -7,8 +7,6 @@ public class Health : MonoBehaviour, IDamageable
 
 {
 
-    SpawnShieldImpact shield;
-
     [SerializeField]
     private float _currentHealth;
     [SerializeField]
@@ -38,6 +36,7 @@ public class Health : MonoBehaviour, IDamageable
 
     private void Awake()
     {
+  
         CurrentHealth = MaxHealth;
     }
     public void Die()
@@ -47,9 +46,9 @@ public class Health : MonoBehaviour, IDamageable
         Destroy(this.gameObject);
     }
 
-    public void TakeDamage(float dmg, Collision co)
+    public void TakeDamage(float dmg, Collision co, Vector3 hit)
     {
-        shield.OnImpact(co);
+        //todo we dont need the col here
         CurrentHealth -= dmg;
     }
 
@@ -57,7 +56,7 @@ public class Health : MonoBehaviour, IDamageable
     {
         if (co.gameObject.tag == "Weapon")
         {
-            TakeDamage(1, co);
+            TakeDamage(1, co, co.contacts[0].point);
         }
     }
 }

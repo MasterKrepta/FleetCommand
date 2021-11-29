@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -52,8 +53,19 @@ public class Phaser : MonoBehaviour, IWeapon
     IEnumerator StartPhaser(Transform target)
     {
         lr.enabled = true;
-        Collision col = new Collision(); //todo figure this out. 
-        target.GetComponent<IDamageable>().TakeDamage(dmg, col) ;
+        //Collision col = new Collision(); //todo figure this out. 
+        ////col.contacts[0] = target.transform.position;
+
+        //target.GetComponent<IDamageable>().TakeDamage(dmg, col, target.transform.position) ;
+        ApplyPhaserDmg(target.transform.position);
+        
+        //TODO procedure. 
+        //1: Get raycast from origin to target location.
+        //2: On hit.position set end point of Line renderer
+        //3: call shield event and apply damage
+
+
+
         lr.SetPosition(1, target.transform.position);
         yield return new WaitForSeconds(BeamTime);
 
@@ -61,6 +73,11 @@ public class Phaser : MonoBehaviour, IWeapon
 
         lr.enabled = false;
         StartCoroutine(RechargeWeapon());
+    }
+
+    private void ApplyPhaserDmg(Vector3 hitPoint)
+    {
+        Physics.Raycast()
     }
 
     IEnumerator RechargeWeapon()
