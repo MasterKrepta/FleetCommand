@@ -1892,6 +1892,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4992838361154946, guid: 45b62242ff99b0a48a47f713cd6d1687, type: 3}
   m_PrefabInstance: {fileID: 845265242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1710465207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5649692318284743236, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153959205653062545, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_Name
+      value: Shield (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153959205653062545, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459895362554202266, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: shieldImpact
+      value: 
+      objectReference: {fileID: 8197874359120402536, guid: 830fba966cf45fe49947339f45d86980, type: 3}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 71.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7072302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7069834
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785959156735179051, guid: de52807b077578842855207fcc1ca342, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de52807b077578842855207fcc1ca342, type: 3}
 --- !u!4 &1835885547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4579553980399578, guid: f603e71ddc270d54192200e95673e2a6, type: 3}
@@ -2094,6 +2167,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2819379273665676679, guid: 7ed10fe72b8b6cc4ea1ce064bb39cfb4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4837752419867404184, guid: 7ed10fe72b8b6cc4ea1ce064bb39cfb4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
