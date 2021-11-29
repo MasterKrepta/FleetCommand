@@ -36,6 +36,7 @@ public class TargetComputer : MonoBehaviour
         {
             targets.Add(t);
         }
+        targetCount = targets.Count;
         targetsInRange = targets; //TODO For Testing Only
         
     }

@@ -6,6 +6,7 @@ public class ShieldHealth : MonoBehaviour, IDamageable
 {
 
     SpawnShieldImpact shield;
+
     [SerializeField]
     private float _currentHealth;
 
@@ -30,8 +31,6 @@ public class ShieldHealth : MonoBehaviour, IDamageable
         set { _maxHealth = value; }
     }
 
-
-
     private void Awake()
     {
         shield = GetComponent<SpawnShieldImpact>();
@@ -42,21 +41,40 @@ public class ShieldHealth : MonoBehaviour, IDamageable
         this.gameObject.SetActive(false);
     }
 
-    public void TakeDamage(float dmg, Collision co, Vector3 hit)
+    public void TakeDamage(float dmg, Collider co)
     {
-        shield.OnImpact(co);
+
+        shield.OnImpact2(co);
         CurrentHealth -= dmg;
         //TODO setup shield recharging. 
     }
 
- 
-    private void OnCollisionEnter(Collision co)
+    public void TakeDamage2(float dmg, Collider co)
     {
-        if (co.gameObject.tag == "Weapon")
+        shield.OnImpact2(co);
+        CurrentHealth -= dmg;
+        //TODO setup shield recharging. 
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //! This is essential
+        if (other.gameObject.tag == "Weapon")
         {
-            
+
             //Debug.Log("SHIELDHEALTH");
-            TakeDamage(1, co, co.contacts[0].point);
+            TakeDamage2(1, other);
         }
     }
+    //private void OnCollisionEnter(Collider co)
+    //{
+    //    //! This is essential
+    //    if (co.gameObject.tag == "Weapon")
+    //    {
+
+    //        //Debug.Log("SHIELDHEALTH");
+    //        TakeDamage(1, co);
+    //    }
+    //}
 }

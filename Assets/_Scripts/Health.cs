@@ -46,17 +46,25 @@ public class Health : MonoBehaviour, IDamageable
         Destroy(this.gameObject);
     }
 
-    public void TakeDamage(float dmg, Collision co, Vector3 hit)
+    public void TakeDamage(float dmg, Collider co)
     {
         //todo we dont need the col here
         CurrentHealth -= dmg;
     }
 
-    private void OnCollisionEnter(Collision co)
+    private void OnTriggerEnter(Collider co)
     {
         if (co.gameObject.tag == "Weapon")
         {
-            TakeDamage(1, co, co.contacts[0].point);
+            TakeDamage(1, co);
+            Destroy(co.gameObject);
         }
     }
+    //private void OnCollisionEnter(Collider co)
+    //{
+    //    if (co.gameObject.tag == "Weapon")
+    //    {
+    //        TakeDamage(1, co);
+    //    }
+    //}
 }

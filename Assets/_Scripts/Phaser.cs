@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Phaser : MonoBehaviour, IWeapon
 {
-
     LineRenderer lr;
     public float fireSpeed;
     public float BeamTime = .5f;
     public float dmg;
-    public GameObject Target;
+    public float beamLength = 200f;
+    //public GameObject Target;
 
     public bool CanFire { get; set; }
     
@@ -32,12 +32,13 @@ public class Phaser : MonoBehaviour, IWeapon
 
     public void Fire()
     {
-           
-        
+
     }
 
     private void Update()
     {
+        //Target = TargetComputer.Instance.CurrentTarget; //TODO why didnt i need this before
+
         lr.SetPosition(0, transform.position);
     }
     public void Fire_Targeted(Transform target)
@@ -46,27 +47,33 @@ public class Phaser : MonoBehaviour, IWeapon
 
         if (TargetComputer.Instance.CurrentTarget != null)
         {
-            StartCoroutine(StartPhaser(target));
+            StartCoroutine(StartPhaser(TargetComputer.Instance.CurrentTarget.transform));
         }
     }
 
     IEnumerator StartPhaser(Transform target)
     {
-        lr.enabled = true;
-        //Collision col = new Collision(); //todo figure this out. 
-        ////col.contacts[0] = target.transform.position;
-
-        //target.GetComponent<IDamageable>().TakeDamage(dmg, col, target.transform.position) ;
-        ApplyPhaserDmg(target.transform.position);
-        
         //TODO procedure. 
         //1: Get raycast from origin to target location.
         //2: On hit.position set end point of Line renderer
         //3: call shield event and apply damage
 
+        lr.enabled = true;
 
+        RaycastHit hit;
 
-        lr.SetPosition(1, target.transform.position);
+        if(Physics.Raycast(transform.position, target.transform.position, out hit, beamLength))
+        {
+            lr.SetPosition(1, target.transform.position);
+            IDamageable hitTarget = hit.transform.GetComponent<IDamageable>();
+            
+            if (hitTarget != null)
+            {
+
+                hitTarget.TakeDamage(dmg, hit.collider);
+            }
+        }
+ 
         yield return new WaitForSeconds(BeamTime);
 
         //TODO make the end of the beam slerp to the target
@@ -75,10 +82,6 @@ public class Phaser : MonoBehaviour, IWeapon
         StartCoroutine(RechargeWeapon());
     }
 
-    private void ApplyPhaserDmg(Vector3 hitPoint)
-    {
-        Physics.Raycast()
-    }
 
     IEnumerator RechargeWeapon()
     {
@@ -88,9 +91,9 @@ public class Phaser : MonoBehaviour, IWeapon
     }
     public bool TargetInRange()
     {
-        print($"Current {TargetComputer.Instance.CurrentTarget.name}");
+        //print($"Current {TargetComputer.Instance.CurrentTarget.name}");
 
-        print($"in arc: {parentFov.target.name}");
+        //print($"in arc: {parentFov.target.name}");
 
         if (TargetComputer.Instance.CurrentTarget.name == parentFov.target.name && parentFov.targetInArc)
         {
@@ -99,5 +102,10 @@ public class Phaser : MonoBehaviour, IWeapon
         //return parentFov.targetInArc;
         return false;
 
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Debug.DrawRay(transform.position, TargetComputer.Instance.CurrentTarget.transform.position, Color.yellow, beamLength);
     }
 }
