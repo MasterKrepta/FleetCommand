@@ -582,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TorpedoLauncher
       objectReference: {fileID: 0}
+    - target: {fileID: 502233432535141429, guid: 5d2a4bbcd9e4d0d408dc0b610ccccccd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1747333639002418527, guid: 5d2a4bbcd9e4d0d408dc0b610ccccccd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -647,6 +651,18 @@ PrefabInstance:
     - target: {fileID: 3586891453095132944, guid: af92fde31f1e82241a305dcf039520d9, type: 3}
       propertyPath: m_UseWorldSpace
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586891453095132951, guid: af92fde31f1e82241a305dcf039520d9, type: 3}
+      propertyPath: dmg
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586891453095132951, guid: af92fde31f1e82241a305dcf039520d9, type: 3}
+      propertyPath: beamLength
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586891453095132951, guid: af92fde31f1e82241a305dcf039520d9, type: 3}
+      propertyPath: phaserHitPoint
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8024881016716935777, guid: af92fde31f1e82241a305dcf039520d9, type: 3}
       propertyPath: m_Name

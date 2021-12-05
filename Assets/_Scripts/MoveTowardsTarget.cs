@@ -22,7 +22,7 @@ public class MoveTowardsTarget : MonoBehaviour
 
     private void Update()
     {
-        
+        StartCoroutine(DestroyOverTime());
 
         if (target == null)
         {

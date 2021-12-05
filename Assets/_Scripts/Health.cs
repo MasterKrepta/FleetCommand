@@ -48,6 +48,7 @@ public class Health : MonoBehaviour, IDamageable
 
     public void TakeDamage(float dmg, Collider co)
     {
+        Debug.Log("take damage");
         //todo we dont need the col here
         CurrentHealth -= dmg;
     }

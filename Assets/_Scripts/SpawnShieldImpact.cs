@@ -54,7 +54,7 @@ public class SpawnShieldImpact : MonoBehaviour
 
     void SpawnEffect(Collider co)
     {
-       
+        Debug.Log(co.name);
         if (co.gameObject.tag == "Weapon" || co.gameObject.tag == "Shield")
 
         {

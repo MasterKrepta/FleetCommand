@@ -10,6 +10,7 @@ public class Phaser : MonoBehaviour, IWeapon
     public float BeamTime = .5f;
     public float dmg;
     public float beamLength = 200f;
+    public GameObject phaserHitPoint;
     //public GameObject Target;
 
     public bool CanFire { get; set; }
@@ -65,12 +66,16 @@ public class Phaser : MonoBehaviour, IWeapon
         if(Physics.Raycast(transform.position, target.transform.position, out hit, beamLength))
         {
             lr.SetPosition(1, target.transform.position);
+            //SetPhaserImpactPoint(hit.point, hit.collider.tag);
+
             IDamageable hitTarget = hit.transform.GetComponent<IDamageable>();
-            
+
+            //todo testing phaser changes
             if (hitTarget != null)
             {
-
-                hitTarget.TakeDamage(dmg, hit.collider);
+                Instantiate(phaserHitPoint, hit.point, transform.rotation);
+                Debug.Log(hitTarget.ToString());
+                //hitTarget.TakeDamage(dmg, hit.collider);
             }
         }
  
@@ -82,7 +87,31 @@ public class Phaser : MonoBehaviour, IWeapon
         StartCoroutine(RechargeWeapon());
     }
 
+    private void SetPhaserImpactPoint(Vector3 position, string tag)
+    {
+        Vector3 modPoint = position;
+        if (tag == "Shield")
+        {
+            //get cross product from angle instead of hard coding. 
+            //modPoint = new Vector3(0, 0, -5) + position;
+        }
+        else
+        {
+            modPoint = position;
+        }
 
+        phaserHitPoint.transform.position = modPoint;
+        phaserHitPoint.SetActive(true);
+        StartCoroutine(ResetHitPoint());
+        
+    }
+
+    IEnumerator ResetHitPoint()
+    {
+        yield return new WaitForSeconds(.2f);
+        phaserHitPoint.SetActive(false);
+        phaserHitPoint.transform.position = transform.position;
+    }
     IEnumerator RechargeWeapon()
     {
         CanFire = false;
@@ -106,6 +135,6 @@ public class Phaser : MonoBehaviour, IWeapon
 
     void OnDrawGizmosSelected()
     {
-        Debug.DrawRay(transform.position, TargetComputer.Instance.CurrentTarget.transform.position, Color.yellow, beamLength);
+        //Debug.DrawRay(transform.position, TargetComputer.Instance.CurrentTarget.transform.position, Color.yellow, beamLength);
     }
 }
